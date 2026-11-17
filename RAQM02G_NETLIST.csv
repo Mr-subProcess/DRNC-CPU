@@ -1,0 +1,60 @@
+RefDes,Value,Pin,Net,Function
+U1,BCM847BS,1,E_DATA,DATA TR1 emitter
+U1,BCM847BS,2,D_P,DATA TR1 base
+U1,BCM847BS,3,OUT_N,DATA TR2 collector
+U1,BCM847BS,4,E_DATA,DATA TR2 emitter
+U1,BCM847BS,5,D_N,DATA TR2 base
+U1,BCM847BS,6,OUT_P,DATA TR1 collector
+U2,BCM847BS,1,E_FB,FB TR1 emitter
+U2,BCM847BS,2,FB_N,FB TR1 base cross from OUT_N
+U2,BCM847BS,3,OUT_N,FB TR2 collector
+U2,BCM847BS,4,E_FB,FB TR2 emitter
+U2,BCM847BS,5,FB_P,FB TR2 base cross from OUT_P
+U2,BCM847BS,6,OUT_P,FB TR1 collector
+U3,BCM847BS,1,TAIL_NODE,selector common emitter
+U3,BCM847BS,2,WE_P,WRITE select base
+U3,BCM847BS,3,E_FB,feedback emitter route
+U3,BCM847BS,4,TAIL_NODE,selector common emitter
+U3,BCM847BS,5,WE_N,HOLD select base
+U3,BCM847BS,6,E_DATA,DATA emitter route
+Q1,BC847B,1,BIAS_Q,tail sink base
+Q1,BC847B,2,TAIL_EMIT,tail sink emitter
+Q1,BC847B,3,TAIL_NODE,tail sink collector
+R1,R_LOAD_P 470R,1,VDD_CML,passive terminal 1
+R1,R_LOAD_P 470R,2,OUT_P,passive terminal 2
+R2,R_LOAD_N 470R,1,VDD_CML,passive terminal 1
+R2,R_LOAD_N 470R,2,OUT_N,passive terminal 2
+R3,R_FB_PT 22k,1,OUT_P,passive terminal 1
+R3,R_FB_PT 22k,2,FB_P,passive terminal 2
+R4,R_FB_PB 22k,1,FB_P,passive terminal 1
+R4,R_FB_PB 22k,2,VREF_FB,passive terminal 2
+R5,R_FB_NT 22k,1,OUT_N,passive terminal 1
+R5,R_FB_NT 22k,2,FB_N,passive terminal 2
+R6,R_FB_NB 22k,1,FB_N,passive terminal 1
+R6,R_FB_NB 22k,2,VREF_FB,passive terminal 2
+R7,R_DATA_BIAS_P 10k,1,VCM_DATA,passive terminal 1
+R7,R_DATA_BIAS_P 10k,2,D_P,passive terminal 2
+R8,R_DATA_BIAS_N 10k,1,VCM_DATA,passive terminal 1
+R8,R_DATA_BIAS_N 10k,2,D_N,passive terminal 2
+R9,R_WE_BIAS_P 10k,1,VCM_WE,passive terminal 1
+R9,R_WE_BIAS_P 10k,2,WE_P,passive terminal 2
+R10,R_WE_BIAS_N 10k,1,VCM_WE,passive terminal 1
+R10,R_WE_BIAS_N 10k,2,WE_N,passive terminal 2
+R11,R_DATA_TERM 100R,1,D_P,passive terminal 1
+R11,R_DATA_TERM 100R,2,D_N,passive terminal 2
+R12,R_WE_TERM 100R,1,WE_P,passive terminal 1
+R12,R_WE_TERM 100R,2,WE_N,passive terminal 2
+R13,R_BIAS_TAIL 1k,1,VBIAS_TAIL,passive terminal 1
+R13,R_BIAS_TAIL 1k,2,BIAS_Q,passive terminal 2
+R14,R_TAIL 470R,1,TAIL_EMIT,passive terminal 1
+R14,R_TAIL 470R,2,SENSE_P,passive terminal 2
+R15,R_SENSE 10R,1,SENSE_P,passive terminal 1
+R15,R_SENSE 10R,2,GND,passive terminal 2
+C1,C_VCM_DATA 100n,1,VCM_DATA,capacitor terminal 1
+C1,C_VCM_DATA 100n,2,GND,capacitor terminal 2
+C2,C_VCM_WE 100n,1,VCM_WE,capacitor terminal 1
+C2,C_VCM_WE 100n,2,GND,capacitor terminal 2
+C3,C_VREF 100n,1,VREF_FB,capacitor terminal 1
+C3,C_VREF 100n,2,GND,capacitor terminal 2
+C4,C_VDD 4.7u,1,VDD_CML,capacitor terminal 1
+C4,C_VDD 4.7u,2,GND,capacitor terminal 2

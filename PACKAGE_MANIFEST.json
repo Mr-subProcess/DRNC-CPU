@@ -1,0 +1,14 @@
+{
+  "package": "RAQM-02G_SPICE_KiCad_and_RAQM03_Architecture_Package",
+  "created": "2026-11-17",
+  "file_count": 28,
+  "spice_engine_run": false,
+  "kicad_cli_validation": false,
+  "pcb_or_gerber_generated": false,
+  "notes": [
+    "SPICE decks are generated but not executed in this environment.",
+    "Proxy model is Diodes Inc. BC847BS, not Nexperia BCM847BS.",
+    "KiCad schematic S-expression balance checked; KiCad GUI/ERC not executed.",
+    "RAQM-03 is architecture-only pending single-cell qualification."
+  ]
+}

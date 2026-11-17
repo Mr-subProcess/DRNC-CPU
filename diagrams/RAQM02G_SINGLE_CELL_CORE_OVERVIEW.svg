@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120">
+<defs><style>
+.bg{fill:#fff}.box{fill:#f8fafc;stroke:#23364d;stroke-width:3;rx:12}.dual{fill:#fefce8;stroke:#374151;stroke-width:3;rx:10}.tail{fill:#eff6ff;stroke:#1d4ed8;stroke-width:3;rx:10}.wire{stroke:#334155;stroke-width:4;fill:none}.fb{stroke:#a855f7;stroke-width:4;fill:none}.txt{font:24px Arial,sans-serif;fill:#0f172a}.small{font:19px Arial,sans-serif;fill:#334155}.title{font:bold 34px Arial,sans-serif;fill:#0f172a}.sub{font:22px Arial,sans-serif;fill:#334155}.label{font:bold 22px Arial,sans-serif;fill:#1e293b}.note{font:18px Arial,sans-serif;fill:#475569}.port{fill:#ecfeff;stroke:#0e7490;stroke-width:3;rx:8}
+</style></defs>
+<rect class="bg" width="1800" height="1120"/>
+<text x="55" y="62" class="title">RAQM-02G — Single-cell CML latch candidate</text>
+<text x="55" y="100" class="sub">NPN differential data pair + cross-coupled feedback pair + WRITE/HOLD current selector + tail sink</text>
+<!-- packages -->
+<rect class="dual" x="80" y="260" width="330" height="220"/>
+<text x="245" y="300" text-anchor="middle" class="label">U1 — BCM847BS</text><text x="245" y="333" text-anchor="middle" class="txt">DATA differential pair</text>
+<text x="105" y="385" class="small">TR1: B1=D_P, C1=OUT_P</text><text x="105" y="420" class="small">TR2: B2=D_N, C2=OUT_N</text><text x="105" y="455" class="small">E1 + E2 = E_DATA</text>
+<rect class="dual" x="520" y="260" width="370" height="220"/>
+<text x="705" y="300" text-anchor="middle" class="label">U2 — BCM847BS</text><text x="705" y="333" text-anchor="middle" class="txt">Cross-coupled feedback pair</text>
+<text x="550" y="385" class="small">TR1: B1=FB_N, C1=OUT_P</text><text x="550" y="420" class="small">TR2: B2=FB_P, C2=OUT_N</text><text x="550" y="455" class="small">E1 + E2 = E_FB</text>
+<rect class="dual" x="1000" y="260" width="330" height="220"/>
+<text x="1165" y="300" text-anchor="middle" class="label">U3 — BCM847BS</text><text x="1165" y="333" text-anchor="middle" class="txt">WRITE / HOLD selector</text>
+<text x="1030" y="385" class="small">TR1: WE_P → E_DATA</text><text x="1030" y="420" class="small">TR2: WE_N → E_FB</text><text x="1030" y="455" class="small">Shared emitters = TAIL_NODE</text>
+<rect class="tail" x="1430" y="295" width="280" height="150"/>
+<text x="1570" y="335" text-anchor="middle" class="label">Q1 — BC847B</text><text x="1570" y="372" text-anchor="middle" class="txt">Tail current sink</text><text x="1570" y="410" text-anchor="middle" class="small">VBIAS → 1k → base</text>
+<!-- select links -->
+<path class="wire" d="M410 520 L410 570 L1165 570 L1165 480"/>
+<text x="585" y="560" class="small">E_DATA / E_FB branches → selector</text>
+<path class="wire" d="M1330 370 L1430 370"/><text x="1365" y="350" class="small">TAIL_NODE</text>
+<path class="wire" d="M1570 445 L1570 520 L1500 520"/><text x="1580" y="520" class="small">TAIL_EMIT</text>
+<rect class="box" x="1340" y="585" width="370" height="115"/><text x="1525" y="625" text-anchor="middle" class="label">R_TAIL 470Ω + R_SENSE 10Ω</text><text x="1525" y="665" text-anchor="middle" class="small">Kelvin sense → I_TAIL = V_SENSE / 10Ω</text>
+<path class="wire" d="M1500 520 L1500 585"/>
+<!-- Outputs / feedback -->
+<path class="fb" d="M410 220 L410 190 L705 190 L705 260"/><path class="fb" d="M890 220 L890 190 L705 190"/>
+<text x="650" y="165" text-anchor="middle" class="label">Cross-coupled feedback</text>
+<text x="450" y="216" class="small">OUT_P → R_FB → FB_P → U2 TR2 base</text>
+<text x="930" y="216" class="small">OUT_N → R_FB → FB_N → U2 TR1 base</text>
+<path class="wire" d="M245 260 L245 190 L100 190"/><text x="90" y="170" class="small">OUT_P / OUT_N collector nodes</text>
+<!-- IO -->
+<rect class="port" x="65" y="760" width="360" height="145"/><text x="245" y="805" text-anchor="middle" class="label">DATA input</text><text x="245" y="845" text-anchor="middle" class="txt">D_P / D_N</text><text x="245" y="880" text-anchor="middle" class="small">50Ω source + 100Ω differential terminator</text>
+<rect class="port" x="500" y="760" width="360" height="145"/><text x="680" y="805" text-anchor="middle" class="label">WRITE / HOLD</text><text x="680" y="845" text-anchor="middle" class="txt">WE_P / WE_N</text><text x="680" y="880" text-anchor="middle" class="small">50Ω source + 100Ω differential terminator</text>
+<rect class="port" x="940" y="760" width="360" height="145"/><text x="1120" y="805" text-anchor="middle" class="label">Differential output</text><text x="1120" y="845" text-anchor="middle" class="txt">OUT_P / OUT_N</text><text x="1120" y="880" text-anchor="middle" class="small">High-impedance probe only</text>
+<rect class="port" x="1340" y="760" width="370" height="145"/><text x="1525" y="805" text-anchor="middle" class="label">External bias / power</text><text x="1525" y="845" text-anchor="middle" class="txt">5 rails + GND</text><text x="1525" y="880" text-anchor="middle" class="small">No on-board ACK / PAIR_VALID</text>
+<text x="65" y="980" class="note">IMPORTANT: overview only. KiCad pin/net mapping is in the native schematic and RAQM02G_NETLIST.csv.</text>
+<text x="65" y="1015" class="note">Not fabrication-ready: model proxy, no ngspice run, no KiCad ERC/DRC, no PCB or Gerber.</text>
+</svg>

@@ -1,0 +1,10 @@
+Gate_ID,Required_Evidence,Current_Status,Blocks_Physical_Release
+G01,Nexperia BCM847BS vendor model or correlated proxy,OPEN,YES
+G02,ngspice DC operating point and transistor operating region report,NOT_RUN,YES
+G03,ngspice WRITE-HOLD transient captures,NOT_RUN,YES
+G04,KiCad open/save verification,NOT_RUN,YES
+G05,KiCad ERC report,NOT_RUN,YES
+G06,KiCad DRC report after PCB layout,NOT_RUN,YES
+G07,Footprint + pin-1 + land-pattern review,OPEN,YES
+G08,Single-cell physical bench qualification,OPEN,YES
+G09,RAQM-03 four-symbol two-cell integration,ARCHITECTURE_ONLY,YES

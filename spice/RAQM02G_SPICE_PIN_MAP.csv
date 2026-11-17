@@ -1,0 +1,19 @@
+Package,Physical_Pin,Datasheet_Pin_Name,Internal_Transistor,Circuit_Net,Role
+U1,1,E1,TR1,E_DATA,DATA pair emitter
+U1,2,B1,TR1,D_P,DATA+ base
+U1,6,C1,TR1,OUT_P,Q+ collector
+U1,4,E2,TR2,E_DATA,DATA pair emitter
+U1,5,B2,TR2,D_N,DATA- base
+U1,3,C2,TR2,OUT_N,Q- collector
+U2,1,E1,TR1,E_FB,Feedback pair emitter
+U2,2,B1,TR1,FB_N,Cross-coupled base from OUT_N divider
+U2,6,C1,TR1,OUT_P,Q+ collector
+U2,4,E2,TR2,E_FB,Feedback pair emitter
+U2,5,B2,TR2,FB_P,Cross-coupled base from OUT_P divider
+U2,3,C2,TR2,OUT_N,Q- collector
+U3,1,E1,TR1,TAIL_NODE,Selector common emitter
+U3,2,B1,TR1,WE_P,WRITE selector base
+U3,6,C1,TR1,E_DATA,DATA-pair tail routing
+U3,4,E2,TR2,TAIL_NODE,Selector common emitter
+U3,5,B2,TR2,WE_N,HOLD selector base
+U3,3,C2,TR2,E_FB,Feedback-pair tail routing

@@ -1,0 +1,84 @@
+* RAQM-02G single-cell analog core — SPICE candidate
+* NOT A RELEASED DESIGN. Proxy model only; see models/DI_BC847BS_PROXY.lib.
+.include "models/DI_BC847BS_PROXY.lib"
+
+* Rails and externally set bias references
+VDD VDD_CML 0 DC 5.0
+VBIAS VBIAS_SRC 0 DC 1.00
+VCMD VCM_DATA 0 DC 4.16
+VCMW VCM_WE 0 DC 3.45
+VREF VREF_FB 0 DC 3.50
+
+* Matched-pair package U1 = U_DATA
+* pin 1 E1, pin 2 B1, pin 3 C2, pin 4 E2, pin 5 B2, pin 6 C1
+XU1 E_DATA D_P OUT_N E_DATA D_N OUT_P BCM847BS_PROXY
+
+* Matched-pair package U2 = U_FB; intentionally cross-coupled:
+* TR1 collector OUT_P is controlled by FB_N (from OUT_N divider),
+* TR2 collector OUT_N is controlled by FB_P (from OUT_P divider).
+XU2 E_FB FB_N OUT_N E_FB FB_P OUT_P BCM847BS_PROXY
+
+* Matched-pair package U3 = U_SEL; steers tail current to DATA or feedback pair
+XU3 TAIL_NODE WE_P E_FB TAIL_NODE WE_N E_DATA BCM847BS_PROXY
+
+* Tail sink (BC847B single NPN represented by same generic proxy model)
+QTAIL TAIL_NODE BIAS_Q TAIL_EMIT DI_BC847BS
+R_BIAS_TAIL VBIAS_SRC BIAS_Q 1k
+R_TAIL TAIL_EMIT SENSE_P 470
+R_SENSE SENSE_P 0 10
+
+* Collector loads
+R_LOAD_P VDD_CML OUT_P 470
+R_LOAD_N VDD_CML OUT_N 470
+
+* Cross-coupled feedback divider network
+R_FB_PT OUT_P FB_P 22k
+R_FB_PB FB_P VREF_FB 22k
+R_FB_NT OUT_N FB_N 22k
+R_FB_NB FB_N VREF_FB 22k
+
+* Weak common-mode bias and differential termination
+R_DATA_BIAS_P VCM_DATA D_P 10k
+R_DATA_BIAS_N VCM_DATA D_N 10k
+R_DATA_TERM D_P D_N 100
+R_WE_BIAS_P VCM_WE WE_P 10k
+R_WE_BIAS_N VCM_WE WE_N 10k
+R_WE_TERM WE_P WE_N 100
+
+* Local bypass candidates (ideal sources are shown; real source impedance matters)
+C_VCM_DATA VCM_DATA 0 100n
+C_VCM_WE VCM_WE 0 100n
+C_VREF VREF_FB 0 100n
+C_VDD VDD_CML 0 4.7u
+
+* Parasitic/measurement load placeholders; not a PCB extraction
+C_OUT_P OUT_P 0 0.5p
+C_OUT_N OUT_N 0 0.5p
+C_E_DATA E_DATA 0 0.5p
+C_E_FB E_FB 0 0.5p
+
+* DC static write-select condition.
+* Each source has 50 ohm Thevenin output resistance; the board has 100 ohm P-N termination.
+V_DPS D_P_SRC 0 DC 4.26
+R_DPS D_P_SRC D_P 50
+V_DNS D_N_SRC 0 DC 4.06
+R_DNS D_N_SRC D_N 50
+V_WPS WE_P_SRC 0 DC 3.55
+R_WPS WE_P_SRC WE_P 50
+V_WNS WE_N_SRC 0 DC 3.35
+R_WNS WE_N_SRC WE_N 50
+
+* Numerical aid only; does not force a state in physical hardware.
+.nodeset V(OUT_P)=4.75 V(OUT_N)=4.95
+.options reltol=1e-4 abstol=1e-12 vntol=1e-7 gmin=1e-12
+.control
+set noaskquit
+op
+print v(OUT_P) v(OUT_N) v(OUT_P)-v(OUT_N)
+print v(E_DATA) v(E_FB) v(TAIL_NODE) v(TAIL_EMIT) v(BIAS_Q)
+print v(FB_P) v(FB_N) v(SENSE_P)
+let i_tail = v(SENSE_P)/10
+print i_tail
+write RAQM02G_DC_OP.raw all
+.endc
+.end

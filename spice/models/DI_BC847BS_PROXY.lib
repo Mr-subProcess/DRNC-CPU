@@ -1,0 +1,16 @@
+* Diodes Incorporated BC847BS SPICE model, downloaded from the official Diodes Inc. product page.
+* IMPORTANT: This is NOT a Nexperia BCM847BS model. It is a proxy model only.
+* Source: https://www.diodes.com/spice/download/2898/BC847BS.spice.txt
+* Model supplied "as is" by Diodes Inc.; see their disclaimer at the source URL.
+.MODEL DI_BC847BS NPN (IS=9.98f NF=1.00 BF=616 VAF=121
++ IKF=60.7m ISE=2.81p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.150 RE=0.815 RB=3.26 RC=0.326
++ XTB=1.5 CJE=13.3p VJE=1.10 MJE=0.500 CJC=4.33p VJC=0.300 MJC=0.300
++ TF=585p TR=49.1n EG=1.12)
+
+* Physical pin order matches Nexperia BCM847BS datasheet: 1=E1, 2=B1, 3=C2,
+* 4=E2, 5=B2, 6=C1. Transistor subcircuit order is physical package pin order.
+.SUBCKT BCM847BS_PROXY 1 2 3 4 5 6
+QTR1 6 2 1 DI_BC847BS
+QTR2 3 5 4 DI_BC847BS
+.ENDS BCM847BS_PROXY

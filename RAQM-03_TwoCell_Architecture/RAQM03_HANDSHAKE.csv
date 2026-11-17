@@ -1,0 +1,6 @@
+Step,REQ,ACK,Payload_Valid,Meaning
+Idle,0,0,0,No transaction
+Request,1,0,1,Payload held stable by sender
+Qualified,1,1,1,B0 and B1 qualified valid; PAIR_VALID asserted
+Acknowledge_Clear,0,1,1,Sender removes request after ACK
+Return_to_Idle,0,0,0,Receiver releases ACK; next token may start

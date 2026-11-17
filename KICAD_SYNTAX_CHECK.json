@@ -1,0 +1,20 @@
+{
+  "kicad/RAQM02G/RAQM02G.kicad_sch": {
+    "balanced": true,
+    "final_balance": 0,
+    "unterminated_string": false,
+    "min_balance": 0
+  },
+  "kicad/RAQM02G/RAQM.kicad_sym": {
+    "balanced": true,
+    "final_balance": 0,
+    "unterminated_string": false,
+    "min_balance": 0
+  },
+  "kicad/RAQM02G/sym-lib-table": {
+    "balanced": true,
+    "final_balance": 0,
+    "unterminated_string": false,
+    "min_balance": 0
+  }
+}
