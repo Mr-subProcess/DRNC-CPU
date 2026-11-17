@@ -1,0 +1,32 @@
+﻿RefDes,Qty,Function,MPN_or_class,Status,Closure_requirement
+J1,1,PCIe x1 gold-finger edge,CEM x1 edge pattern,MECHANICAL OPEN,"CEM card edge dimensions, bevel, plating, board thickness and keepout must be verified against applicable CEM revision"
+U1,1,Main FPGA / PCIe endpoint,AMD XC7A100T-FGG484 (exact speed/temp ordering suffix TBD),DEVICE+PACKAGE SELECTED; ORDER CODE OPEN,User supplied package pinout; confirm exact orderable speed grade/temperature and Vivado part identifier
+U2,1,Configuration NOR flash,Winbond W25Q128JVSSM,CANDIDATE,"128-Mbit, 2.7–3.6V, SOP-8 208mil, SPI/Dual/Quad; validate exact boot/CCLK timing"
+RREF1,1,GTP calibration resistor,"100 ohm, 1%, low-TCR precision",VALUE BASIS FROM UG482 BOARD GUIDELINES,MGTRREF F8 to MGTAVTT 1.2V; local placement near FPGA
+C_TX0P,1,PCIe TX AC coupling,"100 nF candidate, high-speed 0402/0603",CANDIDATE,Place on card TX path; final capacitance/voltage/package and CEM/AMD review required
+C_TX0N,1,PCIe TX AC coupling,"100 nF candidate, high-speed 0402/0603",CANDIDATE,Match to C_TX0P
+F1,1,12V slot input eFuse,TI TPS25947 family,CANDIDATE,"Select exact suffix, ILIM, OVLO, UVLO, dVdt, thermal after 12V budget"
+U3,1,12V to 5V main buck,TI TPS54302DDCR family,CANDIDATE,"Inductor, diode/synchronous network, compensation and capacitors calculated after load budget"
+U4,1,FPGA core/BRAM rail,1.0V regulator sized from AMD power estimate,OPEN,Separate sense and local decoupling; not sized from logic-cell count alone
+U5,1,GTP analog rail,Low-noise 1.0V regulator branch,OPEN,"Dedicated filtered MGTAVCC, current from Vivado Power Design Manager"
+U6,1,GTP termination rail,1.2V regulator branch,OPEN,Sequence after VCCINT and MGTAVCC; power-good gated
+U7,1,FPGA auxiliary rail,1.8V regulator,OPEN,Size from bank and device loads
+U8,1,VCCO_0 / configuration rail,3.3V rail,OPEN,CFGBVS=VCCO; VCCO_0 and VCCO_14 aligned to flash 3.3V
+U9,1,Bank 13 RAQM I/O rail,3.3V rail,OPEN,VCCO_13 for LVCMOS33; rail current from I/O loading
+U10,1,RAQM CML analog rail,Filtered 5V or appropriate measured rail,OPEN,Based on cell bench operating point; no direct connection to FPGA I/O
+R_PUDC,1,PUDC_B strap resistor,1.0k 1% to VCCO_14 (configurable option to GND),CANDIDATE / REQUIRED STRAP,UG470 requires PUDC_B never float and tie via <=1k to VCCO_14 or GND; default high disables internal pull-ups during configuration
+R_INIT,1,INIT_B pull-up,4.7k to VCCO_0,CANDIDATE,Status/reset line pull-up; final value per UG470 review
+R_DONE,1,DONE pull-up,4.7k to VCCO_0,CANDIDATE,DONE status line pull-up
+R_FCS,1,Flash FCS_B pull-up,4.7k to VCCO_14,CANDIDATE,Keep flash deselected during power-up/configuration
+R_PROGRAM,1,PROGRAM_B pull-up,4.7k to VCCO_0,CANDIDATE,Provide reset pushbutton/test interface to GND
+R_M2,1,M2 strap,4.7k to GND,CANDIDATE,M[2:0]=001 Master SPI
+R_M1,1,M1 strap,4.7k to GND,CANDIDATE,M[2:0]=001 Master SPI
+R_M0,1,M0 strap,4.7k to VCCO_0,CANDIDATE,M[2:0]=001 Master SPI
+R_WE_PD,2,RAQM write-enable default pulldowns,10k to GND each,CANDIDATE,Keep write enables inactive while FPGA I/Os are high-Z; verify interface polarity
+R_RESET_PD,1,RAQM reset default pulldown,10k to GND,CANDIDATE,Define asynchronous RAQM reset safely before FPGA configuration
+R_REQ_PD,1,RAQM request default pulldown,10k to GND,CANDIDATE,Prevent spurious requests during FPGA startup
+R_PERST_PD,1,PCIe PERST_N input default,100k to GND,OPTION / REVIEW,Weak default only; verify host PERST# loading and CEM requirements
+U11,1,Dual comparator receiver,TI TLV3502 family,CONDITIONAL,"Validate CML output common-mode, amplitude, hysteresis and 3.3V compatibility"
+U12,2,CML write-driver channel,Discrete differential current-steering transistor driver,OPEN,One driver per bit; base/current/CM levels must match characterized RAQM cell
+J2,1,JTAG programming header,2x7 keyed header candidate,OPEN,Pinout and cable voltage confirm before assembly
+TP*,set,"Power, bias and handshake test points",Test points + Kelvin pads,DEFINED,Probe-loading and safe-grounding review

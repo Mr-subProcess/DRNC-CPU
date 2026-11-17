@@ -1,10 +1,12 @@
-# Change log
+# Değişiklik Kaydı — RAQM-03D
 
-## RAQM-02G — 2026-11-17
-- 02F arşivi baseline olarak eklendi.
-- 02G tek hücre SPICE uyumlu DC ve WRITE/HOLD transient deck'leri eklendi.
-- Diodes Inc. BC847BS modelini yalnız proxy olarak dahil eden subcircuit wrapper eklendi; Nexperia ile aynı model olmadığı belirtildi.
-- Nexperia BCM847BS'nin resmi fiziksel pin dizilimine göre pin map CSV ve KiCad custom symbol üretildi.
-- KiCad project, schematic ve local library dosyaları eklendi.
-- RAQM-03 iki hücreli 00/01/10/11 mimarisi ve asynchronous PAIR_VALID tanımı eklendi.
-- Gerçek SPICE / ERC / DRC çalıştırılmadı; release gate'leri açık bırakıldı.
+- 03C'deki XC7A35T-FGG484 / X0Y3 hedefi iptal edildi.
+- Kullanıcının sağladığı cihaz/paket pinout'una göre tasarım hedefi XC7A100T-FGG484 olarak güncellendi.
+- PCIe x1 Lane 0 için PG054 önerisi X0Y7 olarak işlendi; pinout kanal 3: TX D7/C7, RX D9/C9, REFCLK0 F6/E6.
+- MGTAVCC, MGTAVTT, MGTRREF pinleri ve 100Ω/1% RREF bağlantı gereksinimi işlendi.
+- Bank 13 üzerinde 12 adet LVCMOS33 RAQM/PCIe-reset I/O atandı; tümü aynı VCCO_13 rayına bağlandı.
+- Master SPI konfigürasyon planı: M[2:0]=001 selects Master SPI; `BITSTREAM.CONFIG.SPI_BUSWIDTH=4` selects x4; CFGBVS=VCCO, VCCO_0=VCCO_14=flash VCC=3.3V. PUDC_B U22 is explicitly strapped.
+- W25Q128JVSSM flash adayı, Winbond 2025 seçim kılavuzunda SOP-8 / 128-Mbit / 2.7–3.6V / SPI-Dual-Quad / mass-production P bilgileriyle yeniden kaydedildi.
+- 484 konumlu grid üretildi; yalnızca bu kart tasarımında kullanılan ve kullanıcı dökümünden çıkarılan konumlar dolduruldu. Diğer koordinatlar NC varsayılmadı.
+- 03C tam arşivi `baseline/` içinde korundu.
+- KiCad sayfaları 03D olarak yeniden etiketlendi; KiCad native electrical connectivity / ERC sign-off iddia edilmedi.

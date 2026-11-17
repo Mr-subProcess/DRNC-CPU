@@ -1,0 +1,50 @@
+﻿Rail,FPGA_ball,Nominal_target,Purpose,Status
+VCCINT,H8,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,H10,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,J7,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,J9,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,K8,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,L7,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,M8,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,N7,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,P8,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,P10,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,R7,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,R9,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,T8,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCINT,T10,1.00 V,FPGA core; AMD DS181 operating limits to be checked against selected speed grade,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCBRAM,J11,1.00 V,Block RAM supply; separate local decoupling,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCBRAM,L11,1.00 V,Block RAM supply; separate local decoupling,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCBRAM,N11,1.00 V,Block RAM supply; separate local decoupling,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCAUX,H12,1.80 V,FPGA auxiliary,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCAUX,K12,1.80 V,FPGA auxiliary,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCAUX,M12,1.80 V,FPGA auxiliary,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCAUX,P12,1.80 V,FPGA auxiliary,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCAUX,R11,1.80 V,FPGA auxiliary,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+MGTAVCC,D6,1.00 V,GTP analog rail; low-noise dedicated branch,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+MGTAVCC,D10,1.00 V,GTP analog rail; low-noise dedicated branch,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+MGTAVCC,F7,1.00 V,GTP analog rail; low-noise dedicated branch,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+MGTAVCC,F9,1.00 V,GTP analog rail; low-noise dedicated branch,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+MGTAVCC,E8,1.00 V,GTP analog rail; low-noise dedicated branch,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+MGTAVTT,B5,1.20 V,GTP termination rail; sequence after VCCINT and MGTAVCC,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+MGTAVTT,B7,1.20 V,GTP termination rail; sequence after VCCINT and MGTAVCC,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+MGTAVTT,B9,1.20 V,GTP termination rail; sequence after VCCINT and MGTAVCC,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+MGTAVTT,B11,1.20 V,GTP termination rail; sequence after VCCINT and MGTAVCC,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+MGTAVTT,C4,1.20 V,GTP termination rail; sequence after VCCINT and MGTAVCC,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+MGTAVTT,C8,1.20 V,GTP termination rail; sequence after VCCINT and MGTAVCC,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_0,F12,3.30 V target,Bank 0 / JTAG / configuration interface; CFGBVS=VCCO,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_0,T12,3.30 V target,Bank 0 / JTAG / configuration interface; CFGBVS=VCCO,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_13,AA17,3.30 V target,Bank 13 RAQM LVCMOS33 interface,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_13,AB14,3.30 V target,Bank 13 RAQM LVCMOS33 interface,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_13,V16,3.30 V target,Bank 13 RAQM LVCMOS33 interface,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_13,W13,3.30 V target,Bank 13 RAQM LVCMOS33 interface,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_13,Y10,3.30 V target,Bank 13 RAQM LVCMOS33 interface,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_14,M14,3.30 V target,Bank 14 configuration multifunction pins / QSPI; align with flash VCC,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_14,P18,3.30 V target,Bank 14 configuration multifunction pins / QSPI; align with flash VCC,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_14,R15,3.30 V target,Bank 14 configuration multifunction pins / QSPI; align with flash VCC,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_14,T22,3.30 V target,Bank 14 configuration multifunction pins / QSPI; align with flash VCC,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_14,U19,3.30 V target,Bank 14 configuration multifunction pins / QSPI; align with flash VCC,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCO_14,Y20,3.30 V target,Bank 14 configuration multifunction pins / QSPI; align with flash VCC,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCADC,K10,1.80 V,XADC analog supply; DS181 recommended operating range 1.71–1.89 V,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+GNDADC,K9,0 V,XADC analog ground,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED
+VCCBATT_0,E12,0 V default if BBRAM key retention is unused,UG470 allows GND or VCCAUX when no battery-backed AES key is used; default 0-ohm option link to GND,DESIGN_TARGET__POWER_ESTIMATE_REQUIRED

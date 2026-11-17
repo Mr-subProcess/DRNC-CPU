@@ -1,0 +1,14 @@
+﻿Function,FPGA_ball,FPGA_pin,Flash_signal,Voltage_domain,Status
+PUDC_B,U22,IO_L3P_T0_DQS_PUDC_B_14,NA,VCCO_14 / 3.3V,Tie via <=1k to VCCO_14 by default to disable internal pull-ups; never float
+M[2] mode strap,U9,M2_0,NA,VCCO_0 / 3.3V,LOW for M[2:0]=001
+M[1] mode strap,U10,M1_0,NA,VCCO_0 / 3.3V,LOW for M[2:0]=001
+M[0] mode strap,U11,M0_0,NA,VCCO_0 / 3.3V,HIGH for M[2:0]=001
+CFGBVS,U8,CFGBVS_0,NA,VCCO_0,Tie to VCCO_0 when VCCO_0=3.3V
+VCCO_0,F12;T12,VCCO_0,NA,3.3V,Configuration/JTAG bank
+VCCO_14,M14;P18;R15;T22;U19;Y20,VCCO_14,NA,3.3V,Bank 14 multifunction config pins
+SPI DQ0 / MOSI,P22,IO_L1P_T0_D00_MOSI_14,Flash SI / IO0,3.3V,Check mode-specific pin direction
+SPI DQ1 / DIN,R22,IO_L1N_T0_D01_DIN_14,Flash SO / IO1,3.3V,Check mode-specific pin direction
+SPI DQ2,P21,IO_L2P_T0_D02_14,Flash WP#/IO2,3.3V,Quad data pin
+SPI DQ3,R21,IO_L2N_T0_D03_14,Flash HOLD#/IO3,3.3V,Quad data pin
+SPI chip select,T19,IO_L6P_T0_FCS_B_14,Flash /CS,3.3V,FCS_B function
+SPI clock,L12,CCLK_0,Flash CLK,VCCO_0,Master configuration clock

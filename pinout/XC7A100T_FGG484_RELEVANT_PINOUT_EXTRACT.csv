@@ -1,0 +1,107 @@
+﻿Package,Device,Ball,Signal,Bank,IO_Type,Function,Note,Source
+FGG484,XC7A100T,B4,MGTPTXP0_216,216,GTP,GTP TX channel 0,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,A4,MGTPTXN0_216,216,GTP,GTP TX channel 0,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,D5,MGTPTXP1_216,216,GTP,GTP TX channel 1,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,C5,MGTPTXN1_216,216,GTP,GTP TX channel 1,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,B6,MGTPTXP2_216,216,GTP,GTP TX channel 2,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,A6,MGTPTXN2_216,216,GTP,GTP TX channel 2,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,D7,MGTPTXP3_216,216,GTP,GTP TX channel 3,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,C7,MGTPTXN3_216,216,GTP,GTP TX channel 3,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,B8,MGTPRXP0_216,216,GTP,GTP RX channel 0,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,A8,MGTPRXN0_216,216,GTP,GTP RX channel 0,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,D11,MGTPRXP1_216,216,GTP,GTP RX channel 1,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,C11,MGTPRXN1_216,216,GTP,GTP RX channel 1,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,B10,MGTPRXP2_216,216,GTP,GTP RX channel 2,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,A10,MGTPRXN2_216,216,GTP,GTP RX channel 2,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,D9,MGTPRXP3_216,216,GTP,GTP RX channel 3,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,C9,MGTPRXN3_216,216,GTP,GTP RX channel 3,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,F6,MGTREFCLK0P_216,216,GTP,GTP reference clock 0 positive,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,E6,MGTREFCLK0N_216,216,GTP,GTP reference clock 0 negative,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,F10,MGTREFCLK1P_216,216,GTP,GTP reference clock 1 positive,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,E10,MGTREFCLK1N_216,216,GTP,GTP reference clock 1 negative,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,F8,MGTRREF_216,216,GTP,GTP precision reference resistor node,Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment,User-provided package pinout in this conversation
+FGG484,XC7A100T,D6,MGTAVCC,216,POWER,GTP analog supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,D10,MGTAVCC,216,POWER,GTP analog supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,F7,MGTAVCC,216,POWER,GTP analog supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,F9,MGTAVCC,216,POWER,GTP analog supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,E8,MGTAVCC,216,POWER,GTP analog supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,B5,MGTAVTT,216,POWER,GTP termination supply 1.2 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,B7,MGTAVTT,216,POWER,GTP termination supply 1.2 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,B9,MGTAVTT,216,POWER,GTP termination supply 1.2 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,B11,MGTAVTT,216,POWER,GTP termination supply 1.2 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,C4,MGTAVTT,216,POWER,GTP termination supply 1.2 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,C8,MGTAVTT,216,POWER,GTP termination supply 1.2 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,H8,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,H10,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,J7,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,J9,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,K8,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,L7,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,M8,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,N7,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,P8,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,P10,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,R7,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,R9,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,T8,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,T10,VCCINT,,POWER,FPGA core supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,J11,VCCBRAM,,POWER,Block RAM supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,L11,VCCBRAM,,POWER,Block RAM supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,N11,VCCBRAM,,POWER,Block RAM supply 1.0 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,H12,VCCAUX,,POWER,Auxiliary supply 1.8 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,K12,VCCAUX,,POWER,Auxiliary supply 1.8 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,M12,VCCAUX,,POWER,Auxiliary supply 1.8 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,P12,VCCAUX,,POWER,Auxiliary supply 1.8 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,R11,VCCAUX,,POWER,Auxiliary supply 1.8 V nominal,,User-provided package pinout in this conversation
+FGG484,XC7A100T,F12,VCCO_0,0,POWER,Configuration/JTAG bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,T12,VCCO_0,0,POWER,Configuration/JTAG bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,AA17,VCCO_13,13,POWER,Selected RAQM interface bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,AB14,VCCO_13,13,POWER,Selected RAQM interface bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,V16,VCCO_13,13,POWER,Selected RAQM interface bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,W13,VCCO_13,13,POWER,Selected RAQM interface bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,Y10,VCCO_13,13,POWER,Selected RAQM interface bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,M14,VCCO_14,14,POWER,QSPI/configuration multifunction bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,P18,VCCO_14,14,POWER,QSPI/configuration multifunction bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,R15,VCCO_14,14,POWER,QSPI/configuration multifunction bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,T22,VCCO_14,14,POWER,QSPI/configuration multifunction bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,U19,VCCO_14,14,POWER,QSPI/configuration multifunction bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,Y20,VCCO_14,14,POWER,QSPI/configuration multifunction bank supply; proposed 3.3 V,,User-provided package pinout in this conversation
+FGG484,XC7A100T,K10,VCCADC,,POWER,XADC supply; 1.8V nominal per DS181,,User-provided package pinout in this conversation
+FGG484,XC7A100T,K9,GNDADC,,GROUND,XADC ground,,User-provided package pinout in this conversation
+FGG484,XC7A100T,M10,VREFP_0,0,ANALOG_REFERENCE,XADC external reference positive; external-reference mode not selected in this revision; follow UG480/DS181 before use,,User-provided package pinout in this conversation
+FGG484,XC7A100T,L9,VREFN_0,0,ANALOG_REFERENCE,XADC external reference negative; external-reference mode not selected in this revision; follow UG480/DS181 before use,,User-provided package pinout in this conversation
+FGG484,XC7A100T,L10,VP_0,0,ANALOG_INPUT,XADC dedicated analog input VP; not assigned in this revision,,User-provided package pinout in this conversation
+FGG484,XC7A100T,M9,VN_0,0,ANALOG_INPUT,XADC dedicated analog input VN; not assigned in this revision,,User-provided package pinout in this conversation
+FGG484,XC7A100T,N10,DXP_0,0,ANALOG_INPUT,XADC external temperature diode positive; not assigned in this revision,,User-provided package pinout in this conversation
+FGG484,XC7A100T,N9,DXN_0,0,ANALOG_INPUT,XADC external temperature diode negative; not assigned in this revision,,User-provided package pinout in this conversation
+FGG484,XC7A100T,E12,VCCBATT_0,0,POWER,AES key-memory backup supply; tie to GND or VCCAUX if battery-backed key retention is unused per UG470,,User-provided package pinout in this conversation
+FGG484,XC7A100T,G11,DONE_0,0,CONFIG/JTAG,Configuration DONE,,User-provided package pinout in this conversation
+FGG484,XC7A100T,U12,INIT_B_0,0,CONFIG/JTAG,Configuration INIT_B,,User-provided package pinout in this conversation
+FGG484,XC7A100T,N12,PROGRAM_B_0,0,CONFIG/JTAG,Configuration PROGRAM_B,,User-provided package pinout in this conversation
+FGG484,XC7A100T,L12,CCLK_0,0,CONFIG/JTAG,Configuration clock,,User-provided package pinout in this conversation
+FGG484,XC7A100T,U9,M2_0,0,CONFIG/JTAG,Configuration mode bit M2,,User-provided package pinout in this conversation
+FGG484,XC7A100T,U10,M1_0,0,CONFIG/JTAG,Configuration mode bit M1,,User-provided package pinout in this conversation
+FGG484,XC7A100T,U11,M0_0,0,CONFIG/JTAG,Configuration mode bit M0,,User-provided package pinout in this conversation
+FGG484,XC7A100T,U8,CFGBVS_0,0,CONFIG/JTAG,Configuration bank voltage select,,User-provided package pinout in this conversation
+FGG484,XC7A100T,V12,TCK_0,0,CONFIG/JTAG,JTAG TCK,,User-provided package pinout in this conversation
+FGG484,XC7A100T,T13,TMS_0,0,CONFIG/JTAG,JTAG TMS,,User-provided package pinout in this conversation
+FGG484,XC7A100T,R13,TDI_0,0,CONFIG/JTAG,JTAG TDI,,User-provided package pinout in this conversation
+FGG484,XC7A100T,U13,TDO_0,0,CONFIG/JTAG,JTAG TDO,,User-provided package pinout in this conversation
+FGG484,XC7A100T,P22,IO_L1P_T0_D00_MOSI_14,14,HR/MULTIFUNCTION,SPI data 0 / MOSI,Bank 14 VCCO and flash VCC must be voltage-compatible,User-provided package pinout in this conversation
+FGG484,XC7A100T,R22,IO_L1N_T0_D01_DIN_14,14,HR/MULTIFUNCTION,SPI data 1 / DIN,Bank 14 VCCO and flash VCC must be voltage-compatible,User-provided package pinout in this conversation
+FGG484,XC7A100T,P21,IO_L2P_T0_D02_14,14,HR/MULTIFUNCTION,SPI data 2,Bank 14 VCCO and flash VCC must be voltage-compatible,User-provided package pinout in this conversation
+FGG484,XC7A100T,R21,IO_L2N_T0_D03_14,14,HR/MULTIFUNCTION,SPI data 3,Bank 14 VCCO and flash VCC must be voltage-compatible,User-provided package pinout in this conversation
+FGG484,XC7A100T,T19,IO_L6P_T0_FCS_B_14,14,HR/MULTIFUNCTION,Flash chip select FCS_B,Bank 14 VCCO and flash VCC must be voltage-compatible,User-provided package pinout in this conversation
+FGG484,XC7A100T,U22,IO_L3P_T0_DQS_PUDC_B_14,14,HR/MULTIFUNCTION,PUDC_B pull-up during configuration control,Bank 14 VCCO and flash VCC must be voltage-compatible,User-provided package pinout in this conversation
+FGG484,XC7A100T,Y16,IO_L1P_T0_13,13,HR,FPGA output to B0 write-driver data input,LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning,User-provided package pinout in this conversation
+FGG484,XC7A100T,AA16,IO_L1N_T0_13,13,HR,FPGA output to B0 write-enable driver input,LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning,User-provided package pinout in this conversation
+FGG484,XC7A100T,AB16,IO_L2P_T0_13,13,HR,FPGA output to B1 write-driver data input,LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning,User-provided package pinout in this conversation
+FGG484,XC7A100T,AB17,IO_L2N_T0_13,13,HR,FPGA output to B1 write-enable driver input,LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning,User-provided package pinout in this conversation
+FGG484,XC7A100T,AA13,IO_L3P_T0_DQS_13,13,HR,Comparator/receiver output from B0,LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning,User-provided package pinout in this conversation
+FGG484,XC7A100T,AB13,IO_L3N_T0_DQS_13,13,HR,Comparator/receiver output from B1,LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning,User-provided package pinout in this conversation
+FGG484,XC7A100T,AA15,IO_L4P_T0_13,13,HR,FPGA asynchronous request output,LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning,User-provided package pinout in this conversation
+FGG484,XC7A100T,AB15,IO_L4N_T0_13,13,HR,FPGA asynchronous reset control output; fail-safe gating required,LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning,User-provided package pinout in this conversation
+FGG484,XC7A100T,Y13,IO_L5P_T0_13,13,HR,Asynchronous acknowledgement input,LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning,User-provided package pinout in this conversation
+FGG484,XC7A100T,AA14,IO_L5N_T0_13,13,HR,Pair-valid input; both cells committed,LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning,User-provided package pinout in this conversation
+FGG484,XC7A100T,W14,IO_L6P_T0_13,13,HR,Sticky fault input,LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning,User-provided package pinout in this conversation
+FGG484,XC7A100T,Y17,IO_0_13,13,HR,PCIe PERST# input,LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning,User-provided package pinout in this conversation
