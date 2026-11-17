@@ -1,0 +1,16 @@
+Gate,Description,Status,Acceptance evidence
+DEV-01,Exact orderable XC7A100T speed/temperature suffix frozen,OPEN,Authorized distributor quote + AMD Vivado part support
+PIN-01,All 484 package positions compared to exact AMD CSV/TXT for selected ordering code,PARTIAL,Vendor pinout file cross-check; current extraction covers used pins only
+PIN-02,PCIe lane0 GT site X0Y7 and GT channel3 ball map validated in Vivado,OPEN,Generated IP XDC + report_drc + implemented design
+PIN-03,All GND/VCC/VCCO/MGT pins accounted for,PARTIAL,Full official package pinout cross-check and schematic ERC
+IO-01,Bank13 VCCO=3.3V and LVCMOS33 pin assignment passes Vivado DRC,OPEN,report_drc clean
+CFG-01,Master SPI x4 boot validated with chosen W25Q128JVSSM and straps,OPEN,Cold/warm boot test and configuration log
+PWR-01,Power estimator current budget and rail components complete,OPEN,AMD Power Design Manager report + regulator calculations
+PWR-02,AMD GTP power ordering enforced,OPEN,Supervisor schematic + measured rail waveforms
+PCB-01,Real KiCad electrical schematic and footprint mapping,OPEN,KiCad ERC clean and independent schematic review
+PCB-02,Six-layer controlled-impedance PCIe layout and board edge verified,OPEN,Stackup field solver + vendor fabrication review
+PCB-03,Gerber/ODB++ and drill outputs reviewed,OPEN,Independent CAM review
+FPGA-01,PCIe endpoint IP build and timing closure,OPEN,Vivado synth/impl, timing summary, bitstream
+PHY-01,Gen1 x1 enumeration on host PC,OPEN,PCIe config-space capture and repeated cold boots
+RAQM-01,Two-cell RAQM control/data path integrated through level translators,OPEN,Oscilloscope/logic traces and repeated state verification
+THERM-01,Power and thermal behavior within selected device/package limits,OPEN,Current/temperature measurements at full workload

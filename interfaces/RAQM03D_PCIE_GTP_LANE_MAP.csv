@@ -1,0 +1,8 @@
+﻿PCIe_signal,Direction_card_view,FPGA_GTP_site,GTP_pin_name,FGG484_ball,Board_connection,Notes
+TX0_P,Card->Host,GTPE2_CHANNEL_X0Y7,MGTPTXP3_216,D7,PCIe edge PETp0,Series AC-coupling capacitor on card TX path; confirm CEM implementation
+TX0_N,Card->Host,GTPE2_CHANNEL_X0Y7,MGTPTXN3_216,C7,PCIe edge PETn0,Length-match to TX0_P
+RX0_P,Host->Card,GTPE2_CHANNEL_X0Y7,MGTPRXP3_216,D9,PCIe edge PERp0,Receiver differential input; host transmitter AC coupling is upstream
+RX0_N,Host->Card,GTPE2_CHANNEL_X0Y7,MGTPRXN3_216,C9,PCIe edge PERn0,Length-match to RX0_N
+REFCLK_P,Host->Card,GTP REFCLK0,MGTREFCLK0P_216,F6,PCIe edge REFCLK+,100 MHz common-clock input; not a global RAQM clock
+REFCLK_N,Host->Card,GTP REFCLK0,MGTREFCLK0N_216,E6,PCIe edge REFCLK-,Length-match to REFCLK_P
+RREF,Board bias,GTP Quad216,MGTRREF_216,F8,100R 1% to MGTAVTT 1.2V,Precision termination calibration reference resistor

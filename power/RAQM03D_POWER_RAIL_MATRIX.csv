@@ -1,0 +1,12 @@
+﻿Rail,Nominal_target,Function,Basis,Status,Closure
+VCCINT,1.00V,Core logic,DS181 nominal target,Design rail,Ramp/sequence and current from Vivado Power Design Manager
+VCCBRAM,1.00V,Block RAM,DS181 nominal target,Can share 1.0V source with VCCINT only after power-integrity review,Dedicated local decoupling at pins J11/L11/N11
+VCCAUX,1.80V,FPGA auxiliary,DS181 nominal target,Design rail,Confirm current and sequencing with selected bitstream/device
+MGTAVCC,1.00V,GTP analog TX/RX,DS181 nominal target,Dedicated low-noise rail,Power-on before/with VCCINT; never allow MGTAVTT to precede
+MGTAVTT,1.20V,GTP termination,DS181 nominal target,Sequenced rail,Enable only after VCCINT and MGTAVCC valid
+VCCO_0,3.30V,Bank 0 configuration/JTAG,CFGBVS=VCCO,Design target,Align CONFIG_VOLTAGE=3.3V and bank-0 voltage
+VCCO_13,3.30V,RAQM interface Bank 13,LVCMOS33,Design target,Check bank type and every assigned I/O standard in Vivado
+VCCO_14,3.30V,Master SPI x4 config multifunction I/O,Flash I/O supply alignment,Design target,Must match flash VCC and CFGBVS/configuration voltage requirements
+VCCADC,1.80V,XADC,DS181 1.71–1.89V,Design rail,Local decoupling to GNDADC; follow DS181/UG480
+VCCBATT,0V default,AES key memory backup,UG470 allows GND or VCCAUX if no battery-backed key is used,0-ohm option link to GND; battery option not populated,Do not use as a general-purpose rail; populate battery only for encrypted BBRAM key retention
+RAQM_5V,5.0V candidate,CML analog domain,Cell characterization baseline,Filtered isolated branch,"Check measured cell currents, ripple, noise and PSRR"

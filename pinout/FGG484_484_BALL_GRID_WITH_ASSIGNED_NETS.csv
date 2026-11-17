@@ -1,0 +1,485 @@
+﻿Ball,Row,Column,Known_signal_or_net,Bank,Type,Assignment_status,Note
+A1,A,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A2,A,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A3,A,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A4,A,4,MGTPTXN0_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP TX channel 0; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+A5,A,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A6,A,6,MGTPTXN2_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP TX channel 2; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+A7,A,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A8,A,8,MGTPRXN0_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP RX channel 0; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+A9,A,9,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A10,A,10,MGTPRXN2_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP RX channel 2; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+A11,A,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A12,A,12,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A13,A,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A14,A,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A15,A,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A16,A,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A17,A,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A18,A,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A19,A,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A20,A,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A21,A,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+A22,A,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B1,B,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B2,B,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B3,B,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B4,B,4,MGTPTXP0_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP TX channel 0; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+B5,B,5,MGTAVTT,216,POWER,EXTRACTED_FROM_USER_PINOUT,GTP termination supply 1.2 V nominal; 
+B6,B,6,MGTPTXP2_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP TX channel 2; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+B7,B,7,MGTAVTT,216,POWER,EXTRACTED_FROM_USER_PINOUT,GTP termination supply 1.2 V nominal; 
+B8,B,8,MGTPRXP0_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP RX channel 0; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+B9,B,9,MGTAVTT,216,POWER,EXTRACTED_FROM_USER_PINOUT,GTP termination supply 1.2 V nominal; 
+B10,B,10,MGTPRXP2_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP RX channel 2; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+B11,B,11,MGTAVTT,216,POWER,EXTRACTED_FROM_USER_PINOUT,GTP termination supply 1.2 V nominal; 
+B12,B,12,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B13,B,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B14,B,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B15,B,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B16,B,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B17,B,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B18,B,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B19,B,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B20,B,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B21,B,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+B22,B,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C1,C,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C2,C,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C3,C,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C4,C,4,MGTAVTT,216,POWER,EXTRACTED_FROM_USER_PINOUT,GTP termination supply 1.2 V nominal; 
+C5,C,5,MGTPTXN1_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP TX channel 1; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+C6,C,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C7,C,7,MGTPTXN3_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP TX channel 3; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+C8,C,8,MGTAVTT,216,POWER,EXTRACTED_FROM_USER_PINOUT,GTP termination supply 1.2 V nominal; 
+C9,C,9,MGTPRXN3_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP RX channel 3; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+C10,C,10,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C11,C,11,MGTPRXN1_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP RX channel 1; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+C12,C,12,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C13,C,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C14,C,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C15,C,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C16,C,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C17,C,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C18,C,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C19,C,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C20,C,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C21,C,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+C22,C,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D1,D,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D2,D,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D3,D,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D4,D,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D5,D,5,MGTPTXP1_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP TX channel 1; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+D6,D,6,MGTAVCC,216,POWER,EXTRACTED_FROM_USER_PINOUT,GTP analog supply 1.0 V nominal; 
+D7,D,7,MGTPTXP3_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP TX channel 3; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+D8,D,8,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D9,D,9,MGTPRXP3_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP RX channel 3; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+D10,D,10,MGTAVCC,216,POWER,EXTRACTED_FROM_USER_PINOUT,GTP analog supply 1.0 V nominal; 
+D11,D,11,MGTPRXP1_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP RX channel 1; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+D12,D,12,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D13,D,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D14,D,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D15,D,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D16,D,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D17,D,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D18,D,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D19,D,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D20,D,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D21,D,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+D22,D,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E1,E,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E2,E,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E3,E,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E4,E,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E5,E,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E6,E,6,MGTREFCLK0N_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP reference clock 0 negative; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+E7,E,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E8,E,8,MGTAVCC,216,POWER,EXTRACTED_FROM_USER_PINOUT,GTP analog supply 1.0 V nominal; 
+E9,E,9,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E10,E,10,MGTREFCLK1N_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP reference clock 1 negative; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+E11,E,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E12,E,12,VCCBATT_0,0,POWER,EXTRACTED_FROM_USER_PINOUT,AES key-memory backup supply; tie to GND or VCCAUX if battery-backed key retention is unused per UG470; 
+E13,E,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E14,E,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E15,E,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E16,E,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E17,E,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E18,E,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E19,E,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E20,E,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E21,E,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+E22,E,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F1,F,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F2,F,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F3,F,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F4,F,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F5,F,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F6,F,6,MGTREFCLK0P_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP reference clock 0 positive; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+F7,F,7,MGTAVCC,216,POWER,EXTRACTED_FROM_USER_PINOUT,GTP analog supply 1.0 V nominal; 
+F8,F,8,MGTRREF_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP precision reference resistor node; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+F9,F,9,MGTAVCC,216,POWER,EXTRACTED_FROM_USER_PINOUT,GTP analog supply 1.0 V nominal; 
+F10,F,10,MGTREFCLK1P_216,216,GTP,EXTRACTED_FROM_USER_PINOUT,GTP reference clock 1 positive; Dedicated transceiver pin; not a user-I/O PACKAGE_PIN assignment
+F11,F,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F12,F,12,VCCO_0,0,POWER,EXTRACTED_FROM_USER_PINOUT,Configuration/JTAG bank supply; proposed 3.3 V; 
+F13,F,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F14,F,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F15,F,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F16,F,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F17,F,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F18,F,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F19,F,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F20,F,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F21,F,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+F22,F,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G1,G,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G2,G,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G3,G,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G4,G,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G5,G,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G6,G,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G7,G,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G8,G,8,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G9,G,9,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G10,G,10,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G11,G,11,DONE_0,0,CONFIG/JTAG,EXTRACTED_FROM_USER_PINOUT,Configuration DONE; 
+G12,G,12,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G13,G,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G14,G,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G15,G,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G16,G,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G17,G,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G18,G,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G19,G,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G20,G,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G21,G,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+G22,G,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H1,H,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H2,H,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H3,H,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H4,H,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H5,H,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H6,H,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H7,H,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H8,H,8,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+H9,H,9,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H10,H,10,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+H11,H,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H12,H,12,VCCAUX,,POWER,EXTRACTED_FROM_USER_PINOUT,Auxiliary supply 1.8 V nominal; 
+H13,H,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H14,H,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H15,H,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H16,H,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H17,H,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H18,H,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H19,H,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H20,H,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H21,H,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+H22,H,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J1,J,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J2,J,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J3,J,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J4,J,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J5,J,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J6,J,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J7,J,7,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+J8,J,8,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J9,J,9,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+J10,J,10,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J11,J,11,VCCBRAM,,POWER,EXTRACTED_FROM_USER_PINOUT,Block RAM supply 1.0 V nominal; 
+J12,J,12,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J13,J,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J14,J,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J15,J,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J16,J,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J17,J,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J18,J,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J19,J,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J20,J,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J21,J,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+J22,J,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K1,K,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K2,K,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K3,K,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K4,K,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K5,K,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K6,K,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K7,K,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K8,K,8,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+K9,K,9,GNDADC,,GROUND,EXTRACTED_FROM_USER_PINOUT,XADC ground; 
+K10,K,10,VCCADC,,POWER,EXTRACTED_FROM_USER_PINOUT,XADC supply; 1.8V nominal per DS181; 
+K11,K,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K12,K,12,VCCAUX,,POWER,EXTRACTED_FROM_USER_PINOUT,Auxiliary supply 1.8 V nominal; 
+K13,K,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K14,K,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K15,K,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K16,K,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K17,K,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K18,K,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K19,K,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K20,K,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K21,K,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+K22,K,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L1,L,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L2,L,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L3,L,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L4,L,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L5,L,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L6,L,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L7,L,7,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+L8,L,8,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L9,L,9,VREFN_0,0,ANALOG_REFERENCE,EXTRACTED_FROM_USER_PINOUT,XADC external reference negative; external-reference mode not selected in this revision; follow UG480/DS181 before use; 
+L10,L,10,VP_0,0,ANALOG_INPUT,EXTRACTED_FROM_USER_PINOUT,XADC dedicated analog input VP; not assigned in this revision; 
+L11,L,11,VCCBRAM,,POWER,EXTRACTED_FROM_USER_PINOUT,Block RAM supply 1.0 V nominal; 
+L12,L,12,CCLK_0,0,CONFIG/JTAG,EXTRACTED_FROM_USER_PINOUT,Configuration clock; 
+L13,L,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L14,L,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L15,L,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L16,L,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L17,L,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L18,L,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L19,L,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L20,L,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L21,L,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+L22,L,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M1,M,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M2,M,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M3,M,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M4,M,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M5,M,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M6,M,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M7,M,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M8,M,8,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+M9,M,9,VN_0,0,ANALOG_INPUT,EXTRACTED_FROM_USER_PINOUT,XADC dedicated analog input VN; not assigned in this revision; 
+M10,M,10,VREFP_0,0,ANALOG_REFERENCE,EXTRACTED_FROM_USER_PINOUT,XADC external reference positive; external-reference mode not selected in this revision; follow UG480/DS181 before use; 
+M11,M,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M12,M,12,VCCAUX,,POWER,EXTRACTED_FROM_USER_PINOUT,Auxiliary supply 1.8 V nominal; 
+M13,M,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M14,M,14,VCCO_14,14,POWER,EXTRACTED_FROM_USER_PINOUT,QSPI/configuration multifunction bank supply; proposed 3.3 V; 
+M15,M,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M16,M,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M17,M,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M18,M,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M19,M,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M20,M,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M21,M,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+M22,M,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N1,N,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N2,N,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N3,N,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N4,N,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N5,N,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N6,N,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N7,N,7,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+N8,N,8,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N9,N,9,DXN_0,0,ANALOG_INPUT,EXTRACTED_FROM_USER_PINOUT,XADC external temperature diode negative; not assigned in this revision; 
+N10,N,10,DXP_0,0,ANALOG_INPUT,EXTRACTED_FROM_USER_PINOUT,XADC external temperature diode positive; not assigned in this revision; 
+N11,N,11,VCCBRAM,,POWER,EXTRACTED_FROM_USER_PINOUT,Block RAM supply 1.0 V nominal; 
+N12,N,12,PROGRAM_B_0,0,CONFIG/JTAG,EXTRACTED_FROM_USER_PINOUT,Configuration PROGRAM_B; 
+N13,N,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N14,N,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N15,N,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N16,N,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N17,N,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N18,N,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N19,N,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N20,N,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N21,N,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+N22,N,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P1,P,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P2,P,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P3,P,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P4,P,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P5,P,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P6,P,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P7,P,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P8,P,8,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+P9,P,9,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P10,P,10,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+P11,P,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P12,P,12,VCCAUX,,POWER,EXTRACTED_FROM_USER_PINOUT,Auxiliary supply 1.8 V nominal; 
+P13,P,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P14,P,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P15,P,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P16,P,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P17,P,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P18,P,18,VCCO_14,14,POWER,EXTRACTED_FROM_USER_PINOUT,QSPI/configuration multifunction bank supply; proposed 3.3 V; 
+P19,P,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P20,P,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+P21,P,21,IO_L2P_T0_D02_14,14,HR/MULTIFUNCTION,EXTRACTED_FROM_USER_PINOUT,SPI data 2; Bank 14 VCCO and flash VCC must be voltage-compatible
+P22,P,22,IO_L1P_T0_D00_MOSI_14,14,HR/MULTIFUNCTION,EXTRACTED_FROM_USER_PINOUT,SPI data 0 / MOSI; Bank 14 VCCO and flash VCC must be voltage-compatible
+R1,R,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R2,R,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R3,R,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R4,R,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R5,R,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R6,R,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R7,R,7,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+R8,R,8,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R9,R,9,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+R10,R,10,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R11,R,11,VCCAUX,,POWER,EXTRACTED_FROM_USER_PINOUT,Auxiliary supply 1.8 V nominal; 
+R12,R,12,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R13,R,13,TDI_0,0,CONFIG/JTAG,EXTRACTED_FROM_USER_PINOUT,JTAG TDI; 
+R14,R,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R15,R,15,VCCO_14,14,POWER,EXTRACTED_FROM_USER_PINOUT,QSPI/configuration multifunction bank supply; proposed 3.3 V; 
+R16,R,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R17,R,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R18,R,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R19,R,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R20,R,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+R21,R,21,IO_L2N_T0_D03_14,14,HR/MULTIFUNCTION,EXTRACTED_FROM_USER_PINOUT,SPI data 3; Bank 14 VCCO and flash VCC must be voltage-compatible
+R22,R,22,IO_L1N_T0_D01_DIN_14,14,HR/MULTIFUNCTION,EXTRACTED_FROM_USER_PINOUT,SPI data 1 / DIN; Bank 14 VCCO and flash VCC must be voltage-compatible
+T1,T,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T2,T,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T3,T,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T4,T,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T5,T,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T6,T,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T7,T,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T8,T,8,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+T9,T,9,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T10,T,10,VCCINT,,POWER,EXTRACTED_FROM_USER_PINOUT,FPGA core supply 1.0 V nominal; 
+T11,T,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T12,T,12,VCCO_0,0,POWER,EXTRACTED_FROM_USER_PINOUT,Configuration/JTAG bank supply; proposed 3.3 V; 
+T13,T,13,TMS_0,0,CONFIG/JTAG,EXTRACTED_FROM_USER_PINOUT,JTAG TMS; 
+T14,T,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T15,T,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T16,T,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T17,T,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T18,T,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T19,T,19,IO_L6P_T0_FCS_B_14,14,HR/MULTIFUNCTION,EXTRACTED_FROM_USER_PINOUT,Flash chip select FCS_B; Bank 14 VCCO and flash VCC must be voltage-compatible
+T20,T,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T21,T,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+T22,T,22,VCCO_14,14,POWER,EXTRACTED_FROM_USER_PINOUT,QSPI/configuration multifunction bank supply; proposed 3.3 V; 
+U1,U,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U2,U,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U3,U,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U4,U,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U5,U,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U6,U,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U7,U,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U8,U,8,CFGBVS_0,0,CONFIG/JTAG,EXTRACTED_FROM_USER_PINOUT,Configuration bank voltage select; 
+U9,U,9,M2_0,0,CONFIG/JTAG,EXTRACTED_FROM_USER_PINOUT,Configuration mode bit M2; 
+U10,U,10,M1_0,0,CONFIG/JTAG,EXTRACTED_FROM_USER_PINOUT,Configuration mode bit M1; 
+U11,U,11,M0_0,0,CONFIG/JTAG,EXTRACTED_FROM_USER_PINOUT,Configuration mode bit M0; 
+U12,U,12,INIT_B_0,0,CONFIG/JTAG,EXTRACTED_FROM_USER_PINOUT,Configuration INIT_B; 
+U13,U,13,TDO_0,0,CONFIG/JTAG,EXTRACTED_FROM_USER_PINOUT,JTAG TDO; 
+U14,U,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U15,U,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U16,U,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U17,U,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U18,U,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U19,U,19,VCCO_14,14,POWER,EXTRACTED_FROM_USER_PINOUT,QSPI/configuration multifunction bank supply; proposed 3.3 V; 
+U20,U,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U21,U,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+U22,U,22,IO_L3P_T0_DQS_PUDC_B_14,14,HR/MULTIFUNCTION,EXTRACTED_FROM_USER_PINOUT,PUDC_B pull-up during configuration control; Bank 14 VCCO and flash VCC must be voltage-compatible
+V1,V,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V2,V,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V3,V,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V4,V,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V5,V,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V6,V,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V7,V,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V8,V,8,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V9,V,9,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V10,V,10,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V11,V,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V12,V,12,TCK_0,0,CONFIG/JTAG,EXTRACTED_FROM_USER_PINOUT,JTAG TCK; 
+V13,V,13,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V14,V,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V15,V,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V16,V,16,VCCO_13,13,POWER,EXTRACTED_FROM_USER_PINOUT,Selected RAQM interface bank supply; proposed 3.3 V; 
+V17,V,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V18,V,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V19,V,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V20,V,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V21,V,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+V22,V,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W1,W,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W2,W,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W3,W,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W4,W,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W5,W,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W6,W,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W7,W,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W8,W,8,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W9,W,9,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W10,W,10,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W11,W,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W12,W,12,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W13,W,13,VCCO_13,13,POWER,EXTRACTED_FROM_USER_PINOUT,Selected RAQM interface bank supply; proposed 3.3 V; 
+W14,W,14,IO_L6P_T0_13,13,HR,EXTRACTED_FROM_USER_PINOUT,Sticky fault input; LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning
+W15,W,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W16,W,16,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W17,W,17,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W18,W,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W19,W,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W20,W,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W21,W,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+W22,W,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y1,Y,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y2,Y,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y3,Y,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y4,Y,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y5,Y,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y6,Y,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y7,Y,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y8,Y,8,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y9,Y,9,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y10,Y,10,VCCO_13,13,POWER,EXTRACTED_FROM_USER_PINOUT,Selected RAQM interface bank supply; proposed 3.3 V; 
+Y11,Y,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y12,Y,12,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y13,Y,13,IO_L5P_T0_13,13,HR,EXTRACTED_FROM_USER_PINOUT,Asynchronous acknowledgement input; LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning
+Y14,Y,14,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y15,Y,15,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y16,Y,16,IO_L1P_T0_13,13,HR,EXTRACTED_FROM_USER_PINOUT,FPGA output to B0 write-driver data input; LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning
+Y17,Y,17,IO_0_13,13,HR,EXTRACTED_FROM_USER_PINOUT,PCIe PERST# input; LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning
+Y18,Y,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y19,Y,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y20,Y,20,VCCO_14,14,POWER,EXTRACTED_FROM_USER_PINOUT,QSPI/configuration multifunction bank supply; proposed 3.3 V; 
+Y21,Y,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+Y22,Y,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA1,AA,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA2,AA,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA3,AA,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA4,AA,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA5,AA,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA6,AA,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA7,AA,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA8,AA,8,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA9,AA,9,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA10,AA,10,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA11,AA,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA12,AA,12,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA13,AA,13,IO_L3P_T0_DQS_13,13,HR,EXTRACTED_FROM_USER_PINOUT,Comparator/receiver output from B0; LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning
+AA14,AA,14,IO_L5N_T0_13,13,HR,EXTRACTED_FROM_USER_PINOUT,Pair-valid input; both cells committed; LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning
+AA15,AA,15,IO_L4P_T0_13,13,HR,EXTRACTED_FROM_USER_PINOUT,FPGA asynchronous request output; LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning
+AA16,AA,16,IO_L1N_T0_13,13,HR,EXTRACTED_FROM_USER_PINOUT,FPGA output to B0 write-enable driver input; LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning
+AA17,AA,17,VCCO_13,13,POWER,EXTRACTED_FROM_USER_PINOUT,Selected RAQM interface bank supply; proposed 3.3 V; 
+AA18,AA,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA19,AA,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA20,AA,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA21,AA,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AA22,AA,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB1,AB,1,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB2,AB,2,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB3,AB,3,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB4,AB,4,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB5,AB,5,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB6,AB,6,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB7,AB,7,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB8,AB,8,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB9,AB,9,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB10,AB,10,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB11,AB,11,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB12,AB,12,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB13,AB,13,IO_L3N_T0_DQS_13,13,HR,EXTRACTED_FROM_USER_PINOUT,Comparator/receiver output from B1; LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning
+AB14,AB,14,VCCO_13,13,POWER,EXTRACTED_FROM_USER_PINOUT,Selected RAQM interface bank supply; proposed 3.3 V; 
+AB15,AB,15,IO_L4N_T0_13,13,HR,EXTRACTED_FROM_USER_PINOUT,FPGA asynchronous reset control output; fail-safe gating required; LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning
+AB16,AB,16,IO_L2P_T0_13,13,HR,EXTRACTED_FROM_USER_PINOUT,FPGA output to B1 write-driver data input; LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning
+AB17,AB,17,IO_L2N_T0_13,13,HR,EXTRACTED_FROM_USER_PINOUT,FPGA output to B1 write-enable driver input; LVCMOS33 candidate; VCCO_13 proposed 3.3 V; confirm in Vivado I/O planning
+AB18,AB,18,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB19,AB,19,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB20,AB,20,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB21,AB,21,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
+AB22,AB,22,NOT_EXTRACTED,,,UNASSIGNED,Grid coordinate only; do not infer this ball is NC or available
