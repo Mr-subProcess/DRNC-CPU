@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+<defs><style>.t{font:bold 24px sans-serif;fill:#17212b}.s{font:17px sans-serif;fill:#263746}.b{fill:#edf3f8;stroke:#304c60;stroke-width:3}.y{fill:#f8f2df;stroke:#8a6c24;stroke-width:3}.r{fill:#faeaea;stroke:#9a4444;stroke-width:3}.a{stroke:#263746;stroke-width:4;fill:none;marker-end:url(#arr)}</style><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#263746"/></marker></defs>
+<rect width="1400" height="520" fill="#fff"/><text x="50" y="55" class="t">RAQM-02F — Karakterizasyon ve Release Akışı</text>
+<rect x="45" y="150" width="180" height="150" rx="18" class="y"/><text x="90" y="195" class="t">T0–T2</text><text x="75" y="240" class="s">Visual / power</text><text x="82" y="270" class="s">/ bias</text>
+<rect x="285" y="150" width="180" height="150" rx="18" class="b"/><text x="330" y="195" class="t">T3–T5</text><text x="320" y="240" class="s">DC / DATA</text><text x="325" y="270" class="s">/ WE sweep</text>
+<rect x="525" y="150" width="180" height="150" rx="18" class="b"/><text x="570" y="195" class="t">T6–T8</text><text x="552" y="240" class="s">Transient / hold</text><text x="560" y="270" class="s">/ startup</text>
+<rect x="765" y="150" width="180" height="150" rx="18" class="b"/><text x="810" y="195" class="t">T9–T10</text><text x="792" y="240" class="s">PVT / probe</text><text x="810" y="270" class="s">repeatability</text>
+<rect x="1005" y="150" width="180" height="150" rx="18" class="r"/><text x="1050" y="195" class="t">G0–G4</text><text x="1035" y="240" class="s">Evidence review</text><text x="1035" y="270" class="s">/ first article</text>
+<rect x="1230" y="150" width="135" height="150" rx="18" class="r"/><text x="1260" y="195" class="t">G6</text><text x="1252" y="240" class="s">Fab</text><text x="1252" y="270" class="s">HOLD</text>
+<path d="M225 225 L285 225" class="a"/><path d="M465 225 L525 225" class="a"/><path d="M705 225 L765 225" class="a"/><path d="M945 225 L1005 225" class="a"/><path d="M1185 225 L1230 225" class="a"/>
+<text x="55" y="380" class="s">Her aşamada rail/bias/transistor güvenlik kontrolü başarısızsa akışı durdur; sonraki teste geçme.</text>
+<text x="55" y="420" class="s">G2 model/simülasyon ve G3 native CAD/ERC/DRC PASS olmadan fiziksel üretim release'i verilemez.</text>
+<text x="55" y="460" class="s">Mevcut paket statüsü: G2 OPEN/NOT RUN · G3 OPEN/NOT GENERATED · G4 NOT BUILT · G6 BLOCKED.</text>
+</svg>

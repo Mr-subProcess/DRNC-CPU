@@ -1,0 +1,7 @@
+﻿Rail_ID,Nominal_or_Starting_Point,Source_Type,Board_Connection,Monitor_Point,Limits_Status,Notes
+VDD_CML,5.00 V; exploratory sweep 4.5–5.25 V,External current-limited bench supply,J7-1 power input via protection placeholders,TP_VDD,NOT_FROZEN,Values inherited as candidates from 02D; not an absolute operating range
+VBIAS_TAIL,~1.00 V starting candidate,Independent low-noise adjustable source,P1-1,TP_VBIAS,NOT_FROZEN,"Tail current depends on VBE, base current, R_TAIL and sense resistor"
+VCM_DATA,~4.16 V starting candidate,Independent adjustable source,P1-3,"TP_VCM_DATA, TP_D_P, TP_D_N",NOT_FROZEN,Measure directly at BJT base pins
+VCM_WE,~3.45 V starting candidate,Independent adjustable source,P1-5,"TP_VCM_WE, TP_WE_P, TP_WE_N",NOT_FROZEN,WE guard-band not established
+VREF_FB,~3.50 V starting candidate,Independent adjustable source,P1-7,"TP_VREF_FB, TP_FB_P, TP_FB_N",NOT_FROZEN,Check all U_FB junction headroom across both states/PVT
+GND,0 V reference,Common low-impedance reference,P1 even pins/J7-2,TP_GND,REQUIRED,Continuous plane; do not split return plane

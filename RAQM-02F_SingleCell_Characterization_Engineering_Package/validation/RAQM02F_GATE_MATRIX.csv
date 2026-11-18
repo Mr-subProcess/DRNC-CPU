@@ -1,0 +1,19 @@
+﻿Gate_ID,Gate_Name,Required_Evidence,Owner_or_Artifact,Status,Blocking
+G0.1,Interface requirements,"Signed rail, connector, driver, output loading and test requirements",02F docs + user/system owner,PARTIAL,YES
+G0.2,Electrical limit table,Absolute max and safe operating windows for every device,Manufacturer datasheets + review,OPEN,YES
+G1.1,Active component identity,"Exact OPN, manufacturer, packing suffix and lot trace",Approved BOM,OPEN,YES
+G1.2,Footprint verification,SOT363/SOT23/SMA/header drawings and pin-1 overlay,Native CAD library review,OPEN,YES
+G1.3,Protection parts,F1/Q_REV/D_TVS exact MPN and loss/headroom analysis,Protection BOM + calculation,OPEN,YES
+G2.1,Model provenance,Manufacturer SPICE model or justified measured alternative,Model archive + checksum + license,OPEN / NOT RUN,YES
+G2.2,DC operating point,All transistor node voltages/currents/power for both states,SPICE report + bench correlation,OPEN / NOT RUN,YES
+G2.3,Transient and retention,"WRITE/HOLD, startup, retention, pulse width, metastability",SPICE/bench reports,OPEN / NOT RUN,YES
+G2.4,PVT/mismatch,Supply/temp/resistor/device spread sensitivity,Sweep report,OPEN / NOT RUN,YES
+G3.1,Native schematic,Electrical schematic and annotated netlist,KiCad or equivalent source,OPEN / NOT GENERATED,YES
+G3.2,ERC/DRC,No unapproved electrical/layout errors,EDA reports,OPEN / NOT RUN,YES
+G3.3,SI/stackup,"Fab stackup, impedance, SMA launch, routing review",Fab controlled impedance note,OPEN,YES
+G4.1,First article assembly,Inspection and serial-numbered build record,Assembly report/photos,OPEN / NOT BUILT,YES
+G4.2,Bench acceptance,Test records for A01-A15 and review signatures,Lab records,OPEN / NOT RUN,YES
+G5.1,Two-bit integration,Two cell same transaction and independent validity,Separate 2-bit test report,NOT STARTED,YES
+G5.2,Async control,C-element/arbiter metastability and handshake proof,Separate control-cell qualification,NOT STARTED,YES
+G6.1,Manufacturing data,"Gerber X2, NC Drill, IPC-356, BOM, PnP, assembly docs",Release archive,BLOCKED,YES
+G6.2,Independent release review,Revision/hash cross-check and manufacturing sign-off,Reviewer record,BLOCKED,YES

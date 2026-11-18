@@ -1,0 +1,25 @@
+﻿Connector,Contact,Signal_or_Net,Direction,Use,Electrical_Requirement,Status
+J1,Center,D_P,Input,DATA+ differential input,DC-coupled; source impedance/VCM must be measured,Candidate; CAD HOLD
+J1,Shell,GND,Reference,Coax return,Connect to continuous L2 reference plane,Candidate; CAD HOLD
+J2,Center,D_N,Input,DATA- differential input,100 ohm P-N termination candidate; verify source topology,Candidate; CAD HOLD
+J2,Shell,GND,Reference,Coax return,Connect to continuous L2 reference plane,Candidate; CAD HOLD
+J3,Center,WE_P,Input,WRITE steering +,DC-coupled; common-mode at base measured,Candidate; CAD HOLD
+J3,Shell,GND,Reference,Coax return,Connect to continuous L2 reference plane,Candidate; CAD HOLD
+J4,Center,WE_N,Input,HOLD steering -,DC-coupled; guard-band characterized,Candidate; CAD HOLD
+J4,Shell,GND,Reference,Coax return,Connect to continuous L2 reference plane,Candidate; CAD HOLD
+J5,Center,OUT_P,Output,Q+ observation,High-Z receiver only; no 50 ohm termination,Candidate; CAD HOLD
+J5,Shell,GND,Reference,Coax return,No output loading claim; use active probe preferred,Candidate; CAD HOLD
+J6,Center,OUT_N,Output,Q- observation,High-Z receiver only; no 50 ohm termination,Candidate; CAD HOLD
+J6,Shell,GND,Reference,Coax return,No output loading claim; use active probe preferred,Candidate; CAD HOLD
+P1,1,VBIAS_TAIL,Input,Tail sink base bias,"Independent adjustable, current limited",Candidate; exact header MPN TBD
+P1,2,GND,Reference,Bias source return,Common reference plane,Candidate; exact header MPN TBD
+P1,3,VCM_DATA,Input,DATA pair common mode,Low-noise DC source,Candidate; exact header MPN TBD
+P1,4,GND,Reference,Bias source return,Common reference plane,Candidate; exact header MPN TBD
+P1,5,VCM_WE,Input,WE pair common mode,Low-noise DC source,Candidate; exact header MPN TBD
+P1,6,GND,Reference,Bias source return,Common reference plane,Candidate; exact header MPN TBD
+P1,7,VREF_FB,Input,Feedback divider reference,Low-noise DC source,Candidate; exact header MPN TBD
+P1,8,GND,Reference,Bias source return,Common reference plane,Candidate; exact header MPN TBD
+P1,9,NC,NC,Reserved,Do not connect,Reserved
+P1,10,NC,NC,Reserved,Do not connect,Reserved
+J7,1,VDD_CML,Power input,+5 V nominal candidate,External current-limited supply; protection decision open,Candidate; exact connector MPN TBD
+J7,2,GND,Power return,Supply return,Common ground reference,Candidate; exact connector MPN TBD

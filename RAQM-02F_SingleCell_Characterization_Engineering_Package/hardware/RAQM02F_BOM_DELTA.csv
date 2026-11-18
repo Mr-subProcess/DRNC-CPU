@@ -1,0 +1,11 @@
+﻿RefDes,Value_or_MPN,Description,Package_Candidate,Qty,Status,Design_Impact,Release_Note
+R_SENSE_TAIL,"10.0 ohm, 0.1% candidate",Low-side tail-current sense resistor,4-terminal preferred; footprint TBD,1,CANDIDATE,Adds ~10 ohm to tail return; recalibrate current,Not included in frozen schematic; bench/model review required
+TP_SENSE_P/TP_SENSE_N,Test pads,Kelvin sense access,PCB pad geometry TBD,2,CANDIDATE,Enables differential measurement across R_SENSE_TAIL,Place at resistor pads; no load-current path
+F1,TBD,Series overcurrent protection footprint,Package TBD,1,DNP / TBD,Adds series impedance/drop,Select after supply fault/current budget
+Q_REV or D_REV,TBD,Reverse-polarity protection footprint,Package TBD,1,DNP / TBD,May consume headroom,Choose after VDD min/headroom review
+D_TVS,TBD,Supply transient clamp footprint,Package TBD,1,DNP / TBD,Capacitance/leakage/clamp affect rail,No voltage selected until source max and abs-max table
+C_BULK,4.7 uF X7R candidate,Input bulk bypass,0805 candidate,1,INHERITED CANDIDATE,Effective capacitance derates with DC bias,Validate impedance and source stability
+C_DEC,100 nF X7R candidate,Local VDD bypass,0603 candidate,1,INHERITED CANDIDATE,Local current loop,Place adjacent to collector-load supply entry
+J1-J6,SMA edge-launch family TBD,Single-cell DATA/WE/Q ports,Board-thickness dependent,6,CANDIDATE,New one-cell connector map,Exact CAD + stackup + shell/edge fit required
+P1,"2x5 keyed header, MPN TBD",External four bias rails + return contacts,THT candidate,1,CANDIDATE,External lab bias connection,"Pin-1, shroud, mating part to be frozen"
+J7,"2-pin locking connector, MPN TBD",VDD_CML/GND power entry,THT candidate,1,CANDIDATE,Power entry,Reverse protection/connector rating review required

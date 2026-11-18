@@ -1,0 +1,16 @@
+﻿Test_ID,Test_Name,Precondition,Stimulus_or_Sweep,Measurements,Acceptance_or_Decision,Status
+A01,Visual and assembly,Unpowered,"Inspect polarity, solder, bridges, SOT363 pin-1, SMA","Photos, microscope, continuity",No bridge/reversed device; record deviations,OPEN
+A02,Power entry current,Bias/data disabled,Ramp VDD with initial 10 mA current-limit procedure from 02D,"Input current, VDD, local heating","No unexpected current-limit, no rail collapse; 10 mA is lab procedure only",OPEN
+A03,Bias DC levels,VDD stable; data idle,"Enable VREF, VCM_DATA, VCM_WE, VBIAS individually",All base/rail voltages,All within pre-approved safe window; thresholds TBD,OPEN
+A04,Tail current,Bias stable,Sweep VBIAS 0.8/0.9/1.0/1.1/1.2 V only if safe,"Sense voltage/current, Q_TAIL VCE","Monotonic/controllable current, within device limits",OPEN
+A05,Static transistor operating point,Bias stable,Both DATA polarities and both HOLD states,"VBE,VBC,VCE,IC,IB,PD per transistor",No unexplained saturation/forward C-B; review data,OPEN
+A06,DATA differential transfer,Safe static conditions,"Sweep ±80, ±100, ±125, ±150 mV at base pins; adjust only if safe","OUT diff/common-mode, tail current","Switching window characterized, not assumed",OPEN
+A07,WE steering,Known DATA; capture inhibited,Sweep WE diff through zero with fine increments,"Current split, OUT polarity, indeterminate region",Guard-band measured; ACK inhibited inside,OPEN
+A08,WRITE/HOLD transient,DC baseline passed,Pulse width sweep; one edge at a time,"Settling time, overshoot, min successful pulse",No value frozen until repeats/PVT review,OPEN
+A09,State retention,Known state written and qualified,Observe 1 us/10 us/1 ms/100 ms/1 s/10 s,"OUT polarity, Q diff margin, drift",No state flip; margin recorded at each time,OPEN
+A10,Power-up state,Capture inhibited,Repeat power cycles under safe conditions,"Startup polarity, current, rail transient",Startup state treated undefined; initialization required,OPEN
+A11,Brownout/recovery,Known state stored,Controlled VDD ramp-down/ramp-up,"Q, current, recovery/false capture",No valid asserted until reinitialize,OPEN
+A12,Probe loading,Stable known state,No probe vs high-Z differential probe vs cable load,Q margin and retention delta,Probe does not change state; otherwise measurement invalid,OPEN
+A13,PVT exploratory,Baseline tests pass,VDD 4.5/5.0/5.25 V; temp -10/25/60 C if possible,"Current, all node voltages, margin",Only within device limits; map failure boundary,OPEN
+A14,Repeatability,One board passes basic function,Repeat identical conditions across repeated trials/boards,"Pass/fail count, spread, device lot",Sample count and confidence stated; no overclaim,OPEN
+A15,Power sequence abuse prevention,Fixture interlocks active,Try input enable with VDD off in protected test setup,"Back-power current, inhibit action",Fixture prevents unsupported sequencing,OPEN

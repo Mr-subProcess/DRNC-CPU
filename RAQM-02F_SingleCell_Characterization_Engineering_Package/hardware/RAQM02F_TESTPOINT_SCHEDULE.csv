@@ -1,0 +1,20 @@
+﻿TP_ID,Net,Location_Guidance,Measurement,Probe_Requirement,Risk_or_Notes,Status
+TP_VDD,VDD_CML,After input protection and near local decoupling,"DC rail, ripple",High-Z DMM/scope,Record current-limit and rail droop,Candidate
+TP_GND,GND,Near power entry and cell return,Reference,Short ground spring,Do not create long ground loop,Candidate
+TP_VBIAS,VBIAS_TAIL,At Q_TAIL base bias node after series resistor,DC bias,High-Z DMM,Check source/series resistor drop,Candidate
+TP_VCM_DATA,VCM_DATA,At local bias entry and base reference network,DC common-mode,High-Z DMM,Base pins are final authority,Candidate
+TP_VCM_WE,VCM_WE,At local bias entry and base reference network,DC common-mode,High-Z DMM,Base pins are final authority,Candidate
+TP_VREF_FB,VREF_FB,At feedback divider supply node,DC reference,High-Z DMM,Record under divider load,Candidate
+TP_D_P,D_P,Near U_DATA base,Base input voltage,Low-C differential probe,Probe must not change input amplitude,Candidate
+TP_D_N,D_N,Near U_DATA base,Base input voltage,Low-C differential probe,Probe must not change input amplitude,Candidate
+TP_WE_P,WE_P,Near U_SEL base,Base input voltage,Low-C differential probe,Sweep differential guard-band,Candidate
+TP_WE_N,WE_N,Near U_SEL base,Base input voltage,Low-C differential probe,Sweep differential guard-band,Candidate
+TP_FB_P,FB_P,Near U_FB base,Feedback base DC/transient,Very low-C active probe or no direct probe,Probe may alter latch feedback,Candidate
+TP_FB_N,FB_N,Near U_FB base,Feedback base DC/transient,Very low-C active probe or no direct probe,Probe may alter latch feedback,Candidate
+TP_OUT_P,OUT_P,At U_DATA/U_FB common collector node,Q positive output,High-Z differential probe,No 50 ohm termination,Candidate
+TP_OUT_N,OUT_N,At U_DATA/U_FB common collector node,Q negative output,High-Z differential probe,No 50 ohm termination,Candidate
+TP_E_DATA,E_DATA,At U_SEL collector/U_DATA emitter node,Steered emitter node,High-Z active probe,Keep pad short and low capacitance,Candidate
+TP_E_FB,E_FB,At U_SEL collector/U_FB emitter node,Steered emitter node,High-Z active probe,Keep pad short and low capacitance,Candidate
+TP_TAIL,TAIL_NODE,At U_SEL emitters/Q_TAIL collector,Tail node voltage,High-Z DMM/probe,Check Q_TAIL VCE headroom,Candidate
+TP_SENSE_P,SENSE_P,Top side of R_SENSE_TAIL,Sense voltage,Differential DMM lead,Kelvin trace lands at resistor pad,Candidate
+TP_SENSE_N,SENSE_N,Ground side of R_SENSE_TAIL,Sense voltage,Differential DMM lead,Kelvin trace lands at resistor pad,Candidate

@@ -1,0 +1,16 @@
+﻿Risk_ID,Risk,Severity,Detection_or_Evidence,Mitigation,Status
+F-R01,No validated transistor-level model,Critical,Model provenance gate G2.1,Obtain vendor model or correlate model to measured device data,Open
+F-R02,Feedback divider bias/headroom incorrect,Critical,Measure FB/OUT and per-device VBC/VCE over states/PVT,Tune R_FB/VREF only after DC analysis,Open
+F-R03,Tail current varies with VBE/temp/beta/source impedance,High,Kelvin current measurement across bias and temperature,Per-cell calibration; replace simple sink if unstable,Open
+F-R04,10 ohm sense resistor changes tail current,Medium,Compare model/bench current with/without sense burden,Recalibrate VBIAS; adjust R_TAIL only via ECO,Open
+F-R05,WE steering overlap/dead-zone too large,Critical,"Fine differential sweep, measure both emitter branches",Define guard-band and ACK inhibit window,Open
+F-R06,DATA differential threshold/common-mode sensitivity,Critical,Measure at base pins over VCM/temp,Specify driver and threshold after characterization,Open
+F-R07,Power input protection consumes headroom,High,Dropout/leakage/clamp and transient analysis,Select only after rail budget; DNP until approved,Open
+F-R08,Output probe changes latch state,High,Compare no-probe/high-Z probe configurations,Low-capacitance active differential probe; remove SMA load,Open
+F-R09,Startup state is undefined,High,Power-cycle characterization,Never valid without explicit initialize-write,Controlled by policy
+F-R10,SMA footprint/board thickness mismatch,High,Mechanical overlay and fabricated coupon review,Use connector manufacturer CAD and fabricator stackup,Open
+F-R11,Ground plane discontinuity creates coupling,High,Layout review/SI check,Continuous L2 reference; short return loops,Open
+F-R12,C-element/arbiter metastability not qualified,Critical,Separate arbiter characterization,Keep ACK/PAIR_VALID external,Open
+F-R13,BCM847BS model replaced by generic unrelated vendor model,High,Model file manufacturer/hash/pin order review,Reject unverified model substitution,Controlled by policy
+F-R14,Two-bit pair validity assumed from one cell,Critical,Architecture boundary review,02F is one cell only; require matching transaction IDs later,Controlled by scope
+F-R15,CAD/DRC/Gerber not generated,Critical,Check release outputs,Do not fabricate until G3/G6 gates pass,Open

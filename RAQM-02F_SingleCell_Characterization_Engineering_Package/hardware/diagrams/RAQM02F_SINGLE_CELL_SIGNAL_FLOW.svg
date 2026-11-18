@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+<defs><style> .t{font: bold 26px sans-serif;fill:#17212b}.s{font: 18px sans-serif;fill:#17212b}.m{font: 16px sans-serif;fill:#243746}.b{fill:#edf3f8;stroke:#29465b;stroke-width:3}.g{fill:#f4f1e8;stroke:#745f24;stroke-width:3}.r{fill:#f8eaea;stroke:#8f3b3b;stroke-width:3}.line{stroke:#263746;stroke-width:4;fill:none}.dash{stroke:#8f3b3b;stroke-width:3;stroke-dasharray:12 9;fill:none}</style></defs>
+<rect width="1400" height="850" fill="#ffffff"/>
+<text x="48" y="54" class="t">RAQM-02F — Tek Hücre Karakterizasyon Akışı</text>
+<text x="50" y="88" class="s">Fonksiyonel blok şeması — elektriksel şematik / üretim dosyası değildir</text>
+<rect x="55" y="160" width="230" height="180" rx="18" class="g"/>
+<text x="82" y="200" class="t">Harici kaynaklar</text><text x="82" y="238" class="s">VDD / VBIAS</text><text x="82" y="270" class="s">VCM_DATA / VCM_WE</text><text x="82" y="302" class="s">VREF_FB + GND</text>
+<rect x="55" y="440" width="230" height="190" rx="18" class="g"/>
+<text x="82" y="482" class="t">Diferansiyel sürüş</text><text x="82" y="522" class="s">D_P / D_N</text><text x="82" y="554" class="s">WE_P / WE_N</text><text x="82" y="586" class="s">DC-coupled</text>
+<rect x="390" y="175" width="260" height="390" rx="22" class="b"/>
+<text x="430" y="218" class="t">Tek bit hücresi</text><rect x="430" y="250" width="180" height="65" rx="10" class="b"/><text x="480" y="291" class="s">U_DATA</text><rect x="430" y="350" width="180" height="65" rx="10" class="b"/><text x="480" y="391" class="s">U_FB</text><rect x="430" y="450" width="180" height="65" rx="10" class="b"/><text x="480" y="491" class="s">U_SEL</text>
+<text x="412" y="540" class="m">Q_TAIL + R_TAIL</text>
+<rect x="755" y="175" width="235" height="160" rx="18" class="g"/>
+<text x="800" y="218" class="t">Tail sense</text><text x="790" y="258" class="s">10 Ω aday</text><text x="790" y="290" class="s">Kelvin TP+/TP-</text>
+<rect x="755" y="420" width="235" height="145" rx="18" class="b"/>
+<text x="797" y="462" class="t">Q_OUT</text><text x="790" y="502" class="s">OUT_P / OUT_N</text><text x="790" y="534" class="s">Yüksek-Z ölçüm</text>
+<rect x="1090" y="190" width="250" height="175" rx="18" class="g"/>
+<text x="1124" y="230" class="t">Bench ölçümü</text><text x="1120" y="270" class="s">DMM / SMU / scope</text><text x="1120" y="302" class="s">Current / bias / Q</text><text x="1120" y="334" class="s">PVT / retention</text>
+<rect x="1090" y="450" width="250" height="160" rx="18" class="r"/>
+<text x="1130" y="492" class="t">Harici fixture</text><text x="1120" y="532" class="s">T_QUAL / ACK_CAPTURE</text><text x="1120" y="564" class="s">PAIR_VALID yok</text>
+<path d="M285 245 L390 245" class="line"/><path d="M285 530 L390 480" class="line"/><path d="M650 260 L755 250" class="line"/><path d="M650 485 L755 485" class="line"/><path d="M990 250 L1090 270" class="line"/><path d="M990 490 L1090 530" class="line"/>
+<path d="M875 335 L875 420" class="dash"/><text x="895" y="385" class="m">sense / bias</text>
+<text x="55" y="735" class="s">Not: Bu blok diyagramdır. Gerçek pin bağlantıları, transistor çalışma bölgeleri ve bütün limitler simülasyon/bench ile doğrulanacaktır.</text>
+<text x="55" y="775" class="s">02F tek bit karakterizasyon sürümüdür; iki hücre, recurrent mesh, C-element ve on-board ACK bu kartta yoktur.</text>
+</svg>

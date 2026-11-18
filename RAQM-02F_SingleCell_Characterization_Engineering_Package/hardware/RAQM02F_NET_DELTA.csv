@@ -1,0 +1,9 @@
+﻿From_02D_Net_or_Block,02F_Proposed_Change,Connection_Concept,Status,Verification_Required
+B0-only cell core,Reuse one cell as characterization article,U_DATA/U_FB/U_SEL/Q_TAIL unchanged as candidate,CANDIDATE,Create native schematic; full netlist audit
+R_TAIL0 to GND,Insert R_SENSE_TAIL in low-side return,R_TAIL bottom -> SENSE_P -> R_SENSE_TAIL -> GND; Kelvin pads at both resistor pads,CANDIDATE,DC operating point; burden and thermal check
+J1-J6 of two-cell board,Reassign for single cell,"D_P, D_N, WE_P, WE_N, OUT_P, OUT_N",CANDIDATE,Connector land pattern/impedance; note not drop-in compatible
+J13 bias header,New single-cell P1 header,"VBIAS, GND, VCM_DATA, GND, VCM_WE, GND, VREF_FB, GND; pins 9/10 NC",CANDIDATE,Pin numbering and source loading review
+J14 power connector,New J7 power entry,VDD_CML and GND,CANDIDATE,"Connector rating, protection, polarity keying"
+Board power entry,Optional F1/Q_REV/D_TVS footprints,Exact devices/values intentionally TBD,OPEN,Rail/transient budget + vendor datasheets
+PAIR_VALID / ACK,Remain external,Test fixture only,RETAINED,C-element/arbiter separately qualified
+Second bit / recurrent link,Not present on 02F article,No B0-B1 cross-link,NOT_IN_SCOPE,Wait until single-cell acceptance

@@ -1,0 +1,13 @@
+﻿Step,Action,Required_State,Measurement_or_Check,Abort_Condition
+P0,Connect GND/reference first,Supply disabled; DATA/WE disabled; bias outputs 0/disabled,Check connector polarity and ground continuity,Any uncertainty in pinout/polarity
+P1,Apply VDD_CML at low starting level with current limit,All bias rails disabled,Observe input current and TP_VDD,"Current-limit hit, rail collapse, heating, smell"
+P2,Set VDD to target exploratory value,No DATA/WE activity,"Record VDD, current, temperature",Out-of-budget current or unstable rail
+P3,Enable VREF_FB,DATA/WE disabled,Measure TP_VREF_FB and FB nodes if safe,Out-of-range node or unexpected supply current
+P4,Enable VCM_DATA and VCM_WE,DATA/WE differential = 0 / safe idle,Measure each base node common-mode,"Driver conflict, oscillation, overcurrent"
+P5,Enable VBIAS_TAIL gradually,Hold/idle condition; capture inhibited,Measure VBIAS and tail sense current,Tail current exceeds planned test limit
+P6,Enable DATA/WE source at zero differential,Inputs stable; capture inhibited,Verify DC-coupling and levels at base pins,Unexpected differential or common-mode
+P7,Begin low-amplitude controlled sweeps,One parameter at a time,"Record OUT, tail current, all rails",Any rail or transistor node leaves safe region
+S1,Disable DATA/WE drive,Return both pairs to safe idle,Check base voltages,Input remains actively driven during shutdown
+S2,Disable VBIAS_TAIL then other bias rails,Capture inhibited,Record current decay,Uncontrolled rail sequencing
+S3,Disable VDD_CML,Supply off,Verify no input/bias back-power,Any source still drives unpowered board
+S4,Disconnect GND last,All sources off,Final continuity/temperature inspection,Any live source remains connected

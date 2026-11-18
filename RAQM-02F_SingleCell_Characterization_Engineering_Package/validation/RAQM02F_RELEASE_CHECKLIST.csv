@@ -1,0 +1,16 @@
+﻿Item,Required,Current_Status,Evidence_Reference,Notes
+Exact active MPN and lot trace,Yes,OPEN,,BCM847BS matched pair and BC847B tail device
+Manufacturer footprint overlays,Yes,OPEN,,"SOT363, SOT23, SMA edge-launch, headers"
+Power protection component sizing,Yes,OPEN,,No TVS/clamp/fuse value selected
+SPICE model provenance,Yes,OPEN / NOT RUN,,No validated BCM847BS model in package
+DC operating point report,Yes,OPEN / NOT RUN,,"Both state polarities, transistor voltages/currents/power"
+WRITE/HOLD transient and retention report,Yes,OPEN / NOT RUN,,No timing limits currently frozen
+Metastability/indeterminate region report,Yes,OPEN / NOT RUN,,DATA and WE differential windows
+PVT and mismatch report,Yes,OPEN / NOT RUN,,Only after credible model/bench correlation
+Native schematic and netlist parity,Yes,NOT GENERATED,,"CSV schedules are requirements, not native schematic"
+ERC/DRC reports,Yes,NOT RUN,,No CAD CLI/tool available in build environment
+Fabricator stackup and impedance review,Yes,OPEN,,Differential lines and SMA launch
+Gerber X2/NC Drill/IPC-356,Yes,NOT GENERATED,,Do not fabricate
+Assembly BOM/PnP/drawings,Yes,NOT RELEASED,,Exact MPN and coordinates missing
+First-article bench record,Yes,NOT BUILT,,Run A01-A15
+Independent design review,Yes,OPEN,,Separate reviewer sign-off

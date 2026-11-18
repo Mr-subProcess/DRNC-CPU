@@ -1,0 +1,18 @@
+﻿Parameter,Starting_Value_or_Range,Status,What_to_measure,Do_Not_Assume
+VDD_CML,5.00 V nominal; 4.5/5.0/5.25 V exploratory points,CANDIDATE,"Rail under load, ripple, current, headroom",Not an absolute operating range
+I_TAIL,0.4–1.0 mA exploratory; 0.75 mA nominal target from 02D,CANDIDATE,Kelvin sense voltage/current vs bias/temp,Not guaranteed by VBIAS calculation
+R_TAIL,470 ohm 1% inherited candidate,CANDIDATE,"Actual value, power, total series resistance",Do not ignore new 10 ohm sense resistor
+R_SENSE_TAIL,10.0 ohm 0.1% candidate,CANDIDATE,"Sense drop, burden, TCR, power",Not yet in verified netlist
+R_LOAD,470 ohm 0.1% matched pair candidate,CANDIDATE,Output swing/common mode/thermal,Not proven load value
+R_FB,22 kohm 0.1% ratio-matched candidate,CANDIDATE,"FB base levels, C-B and C-E margins",Do not assume latch stable
+VBIAS_TAIL,~1.00 V start,CANDIDATE,"Tail current, Q_TAIL operating region",Not a logic-high threshold
+VCM_DATA,~4.16 V start,CANDIDATE,D_P/D_N at transistor base pins,Must be compatible with driver and headroom
+VCM_WE,~3.45 V start,CANDIDATE,WE_P/WE_N base levels and steering region,Guard-band TBD
+VREF_FB,~3.50 V start,CANDIDATE,"FB_P/N, U_FB junction margins",Must be checked for both latch polarities
+V_DIFF_DATA,±80…150 mV exploratory,EXPERIMENT WINDOW,Switching distribution vs VCM/temp,Not a guaranteed threshold
+V_DIFF_WE,±80…150 mV exploratory,EXPERIMENT WINDOW,"Selector transition, overlap/dead-zone",Not a guaranteed threshold
+V_Q_MIN,TBD,OPEN,"Noise, offset, PVT and error margin",No ACK before threshold frozen
+T_QUAL,TBD,OPEN,Settling/noise transient and output stability,No ACK before qualification duration frozen
+T_WRITE_MIN,TBD,OPEN,Pulse-width sweep vs success probability,Do not claim max throughput
+T_RETENTION,"1 us, 10 us, 1 ms, 100 ms, 1 s, 10 s observation points",TEST GRID,State polarity and differential margin,Not lifetime qualification
+Temperature,"-10, 25, 60 C exploratory if equipment available",TEST GRID,"Bias, margin, current, startup",Not product temperature range
