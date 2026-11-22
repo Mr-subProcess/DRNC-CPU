@@ -1,0 +1,24 @@
+RAQM Industrial G77M Rev 4 — local verification record
+
+Date: 2026-11-22
+Command: make check
+
+Executed results:
+  Python bytecode compilation: PASS
+  C bring-up example syntax check (gcc -std=gnu11 -Wall -Wextra -Werror -fsyntax-only): PASS
+  Static source-contract preflight: PASS
+  Python unittest regression: 21 tests, PASS
+
+Coverage includes:
+- 2-bit symbols 00, 01, 10 and 11 as ordinary payload values
+- B-only, C-only and parallel B+C branch modes
+- B/C XOR masks and selectable branch result
+- feedback from the previous successful vector
+- feedback-before-history error
+- invalid branch and merge controls
+- fixed-width TKEEP rejection without seeding feedback history
+- 2,000 deterministic randomized iterations over 128 lanes
+- scalar reference packet shape and CRC check vector
+
+Limitations:
+These results validate Python reference behavior, source-contract checks and C syntax only. They do not establish SystemVerilog RTL correctness, AXI protocol compliance, FPGA synthesis, timing closure, physical throughput, power, EMC or hardware reliability. Icarus Verilog, Verilator and Vivado were not available in the execution environment, so RTL simulation, lint and synthesis were not run here.

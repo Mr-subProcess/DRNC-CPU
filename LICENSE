@@ -1,201 +1,151 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+RAQM RESEARCH-ONLY, NON-COMMERCIAL, NO-PRODUCTION LICENSE
+Version 1.0
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+Copyright (c) 2026 Oğuz Kağan Sayın. All rights reserved.
 
-   1. Definitions.
+IMPORTANT: THIS IS A CUSTOM, RESTRICTIVE, SOURCE-AVAILABLE LICENSE. IT IS NOT
+AN OSI-APPROVED OPEN-SOURCE LICENSE. COMMERCIAL USE AND COMMERCIAL PRODUCTION
+ARE EXPRESSLY PROHIBITED. COMMERCIAL PRODUCTION IS NOT LICENSED.
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+1. DEFINITIONS
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+"Licensor" means Oğuz Kağan Sayın, the copyright holder identified above.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+"Materials" means the contents of this repository that are owned by Licensor,
+including source code, RTL/HDL, software, scripts, testbenches, documentation,
+architecture descriptions, diagrams, interface definitions, hardware-design
+files, schematic sources, constraint templates, and modifications or derivative
+works of those items.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+"Commercial Purpose" means any purpose that is intended for, supports, or is
+reasonably connected with monetary compensation, commercial advantage, or a
+for-profit activity. It includes use by or on behalf of a commercial enterprise
+in its business, product development, customer delivery, paid research,
+contract engineering, paid evaluation, revenue-generating operation, or the
+provision of goods or services for remuneration.
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+"Commercial Production" means designing for production, tooling, fabricating,
+manufacturing, assembling, commissioning, procuring, deploying, or arranging
+third-party manufacture of any chip, die, board, module, device, system, or
+product that incorporates, is derived from, or is materially based on the
+Materials, where that activity has a Commercial Purpose. It includes pilot
+runs, contract manufacture, production validation, and production deployment,
+regardless of whether the resulting item is sold directly.
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+2. LIMITED PERMISSION FOR NON-COMMERCIAL ACTIVITIES
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+Subject to every condition in this License, Licensor grants you a limited,
+worldwide, non-exclusive, royalty-free, non-transferable, non-sublicensable
+permission to:
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+(a) read, inspect, reproduce, compile, simulate, test, and modify the Materials;
+(b) create and use derivative works of the Materials; and
+(c) build, assemble, and operate evaluation prototypes based on the Materials,
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+solely for non-commercial research, academic or personal education, peer
+review, interoperability study, or non-commercial technical evaluation.
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+You may share unmodified or modified copies with other recipients only for
+those same permitted non-commercial purposes, and only if you provide the
+complete license text, preserve all copyright and attribution notices, identify
+your modifications, and ensure that every recipient is bound by this License. Each recipient who
+receives a permitted copy is independently granted only the same limited
+permissions under this License by Licensor. You may not sublicense the Materials
+or offer them under different terms.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+3. ABSOLUTE PROHIBITION ON COMMERCIAL USE AND PRODUCTION
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+No permission is granted under this License for any Commercial Purpose.
+Without limitation, you MUST NOT, directly or indirectly:
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+(a) conduct or arrange Commercial Production;
+(b) manufacture, have manufactured, assemble, or deploy a commercial product
+    or any production-intended hardware incorporating or derived from the
+    Materials;
+(c) sell, offer for sale, rent, lease, license, distribute for a fee, or
+    otherwise commercially exploit the Materials or any derivative work;
+(d) incorporate the Materials or derivative works into a product, service,
+    platform, process, or system offered, licensed, operated, or delivered for
+    commercial advantage or remuneration;
+(e) use the Materials for paid engineering, paid prototyping, contract research,
+    customer work, or commercial product development; or
+(f) use an affiliate, contractor, manufacturer, reseller, or other third party
+    to perform an activity that this License prohibits you from performing.
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+THE PROHIBITION ON COMMERCIAL PRODUCTION IS EXPRESS AND UNCONDITIONAL UNDER
+THIS LICENSE. NO COMMERCIAL MANUFACTURING, COMMERCIAL PILOT PRODUCTION, OR
+COMMERCIAL DEPLOYMENT RIGHT IS GRANTED BY PUBLICATION OF THE REPOSITORY.
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+4. ATTRIBUTION AND NOTICE REQUIREMENTS
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+You must retain this License and all copyright, authorship, and proprietary
+notices in every permitted copy. You must clearly mark modified files and
+identify the date and nature of material modifications. You must not state or
+imply that Licensor endorses you, your organization, or your derivative work.
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+5. NO TRADEMARK OR ENDORSEMENT RIGHTS
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+This License does not grant permission to use RAQM, the Licensor's name or
+logos, or any third-party name, trademark, service mark, or logo except for
+accurate descriptive identification. All such rights are reserved by their
+respective owners.
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+6. LIMITED PATENT PERMISSION
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+To the extent Licensor owns or controls patent claims that are necessarily
+infringed by an activity expressly permitted under Section 2, Licensor grants
+a limited patent permission solely for that non-commercial activity. No patent
+permission is granted for Commercial Production or any Commercial Purpose.
+No rights are granted to third-party patents.
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+7. THIRD-PARTY MATERIALS
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+Third-party tools, vendor documentation, device files, libraries, trademarks,
+and other third-party materials are not relicensed by this License. They remain
+subject to their respective owners' terms. The repository does not include or
+transfer rights to AMD, iWave, KiCad, or other third-party IP, device designs,
+reference designs, or confidential materials.
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
+8. TERMINATION
 
-   END OF TERMS AND CONDITIONS
+Any breach of this License automatically terminates the permissions granted
+to the breaching recipient. Upon termination, that recipient must stop using,
+reproducing, modifying, manufacturing, and distributing the Materials and
+must delete copies under its control, except to the extent retention is
+required by law. Termination does not limit any other rights or remedies
+available to Licensor.
 
-   APPENDIX: How to apply the Apache License to your work.
+9. NO WARRANTY
 
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+THE MATERIALS ARE PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY, OR SAFETY. THE
+MATERIALS ARE EXPERIMENTAL ENGINEERING WORK AND MUST NOT BE ASSUMED TO BE
+PRODUCTION-READY, SAFETY-QUALIFIED, OR SUITABLE FOR INDUSTRIAL CONTROL, MEDICAL,
+AUTOMOTIVE, AEROSPACE, OR OTHER SAFETY-CRITICAL USE.
 
-   Copyright [yyyy] [name of copyright owner]
+10. LIMITATION OF LIABILITY
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR SHALL NOT BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, OR
+OTHER DAMAGES, OR FOR LOSS OF DATA, PROFITS, REVENUE, BUSINESS, EQUIPMENT, OR
+PRODUCTION, ARISING FROM OR RELATED TO THE MATERIALS OR THIS LICENSE, UNDER
+ANY THEORY OF LIABILITY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-       http://www.apache.org/licenses/LICENSE-2.0
+11. NO IMPLIED RIGHTS; RESERVATION
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+All rights not expressly granted in Section 2 are reserved. In particular,
+commercial use, commercial manufacture, commercial production, and commercial
+distribution rights are withheld. Silence, publication, public repository
+visibility, issue discussion, pull-request review, or acceptance of a
+non-commercial contribution does not grant any additional right.
+
+12. INTERPRETATION
+
+If a provision is held unenforceable, it shall be limited only to the minimum
+extent necessary, and the remaining provisions shall continue in effect. No
+failure or delay by Licensor in enforcing a provision constitutes a waiver.
+This License does not replace advice from a qualified lawyer in the relevant
+jurisdiction.
+
+END OF LICENSE

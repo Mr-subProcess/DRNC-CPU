@@ -1,0 +1,151 @@
+RAQM RESEARCH-ONLY, NON-COMMERCIAL, NO-PRODUCTION LICENSE
+Version 1.0
+
+Copyright (c) 2026 Oğuz Kağan Sayın. All rights reserved.
+
+IMPORTANT: THIS IS A CUSTOM, RESTRICTIVE, SOURCE-AVAILABLE LICENSE. IT IS NOT
+AN OSI-APPROVED OPEN-SOURCE LICENSE. COMMERCIAL USE AND COMMERCIAL PRODUCTION
+ARE EXPRESSLY PROHIBITED. COMMERCIAL PRODUCTION IS NOT LICENSED.
+
+1. DEFINITIONS
+
+"Licensor" means Oğuz Kağan Sayın, the copyright holder identified above.
+
+"Materials" means the contents of this repository that are owned by Licensor,
+including source code, RTL/HDL, software, scripts, testbenches, documentation,
+architecture descriptions, diagrams, interface definitions, hardware-design
+files, schematic sources, constraint templates, and modifications or derivative
+works of those items.
+
+"Commercial Purpose" means any purpose that is intended for, supports, or is
+reasonably connected with monetary compensation, commercial advantage, or a
+for-profit activity. It includes use by or on behalf of a commercial enterprise
+in its business, product development, customer delivery, paid research,
+contract engineering, paid evaluation, revenue-generating operation, or the
+provision of goods or services for remuneration.
+
+"Commercial Production" means designing for production, tooling, fabricating,
+manufacturing, assembling, commissioning, procuring, deploying, or arranging
+third-party manufacture of any chip, die, board, module, device, system, or
+product that incorporates, is derived from, or is materially based on the
+Materials, where that activity has a Commercial Purpose. It includes pilot
+runs, contract manufacture, production validation, and production deployment,
+regardless of whether the resulting item is sold directly.
+
+2. LIMITED PERMISSION FOR NON-COMMERCIAL ACTIVITIES
+
+Subject to every condition in this License, Licensor grants you a limited,
+worldwide, non-exclusive, royalty-free, non-transferable, non-sublicensable
+permission to:
+
+(a) read, inspect, reproduce, compile, simulate, test, and modify the Materials;
+(b) create and use derivative works of the Materials; and
+(c) build, assemble, and operate evaluation prototypes based on the Materials,
+
+solely for non-commercial research, academic or personal education, peer
+review, interoperability study, or non-commercial technical evaluation.
+
+You may share unmodified or modified copies with other recipients only for
+those same permitted non-commercial purposes, and only if you provide the
+complete license text, preserve all copyright and attribution notices, identify
+your modifications, and ensure that every recipient is bound by this License. Each recipient who
+receives a permitted copy is independently granted only the same limited
+permissions under this License by Licensor. You may not sublicense the Materials
+or offer them under different terms.
+
+3. ABSOLUTE PROHIBITION ON COMMERCIAL USE AND PRODUCTION
+
+No permission is granted under this License for any Commercial Purpose.
+Without limitation, you MUST NOT, directly or indirectly:
+
+(a) conduct or arrange Commercial Production;
+(b) manufacture, have manufactured, assemble, or deploy a commercial product
+    or any production-intended hardware incorporating or derived from the
+    Materials;
+(c) sell, offer for sale, rent, lease, license, distribute for a fee, or
+    otherwise commercially exploit the Materials or any derivative work;
+(d) incorporate the Materials or derivative works into a product, service,
+    platform, process, or system offered, licensed, operated, or delivered for
+    commercial advantage or remuneration;
+(e) use the Materials for paid engineering, paid prototyping, contract research,
+    customer work, or commercial product development; or
+(f) use an affiliate, contractor, manufacturer, reseller, or other third party
+    to perform an activity that this License prohibits you from performing.
+
+THE PROHIBITION ON COMMERCIAL PRODUCTION IS EXPRESS AND UNCONDITIONAL UNDER
+THIS LICENSE. NO COMMERCIAL MANUFACTURING, COMMERCIAL PILOT PRODUCTION, OR
+COMMERCIAL DEPLOYMENT RIGHT IS GRANTED BY PUBLICATION OF THE REPOSITORY.
+
+4. ATTRIBUTION AND NOTICE REQUIREMENTS
+
+You must retain this License and all copyright, authorship, and proprietary
+notices in every permitted copy. You must clearly mark modified files and
+identify the date and nature of material modifications. You must not state or
+imply that Licensor endorses you, your organization, or your derivative work.
+
+5. NO TRADEMARK OR ENDORSEMENT RIGHTS
+
+This License does not grant permission to use RAQM, the Licensor's name or
+logos, or any third-party name, trademark, service mark, or logo except for
+accurate descriptive identification. All such rights are reserved by their
+respective owners.
+
+6. LIMITED PATENT PERMISSION
+
+To the extent Licensor owns or controls patent claims that are necessarily
+infringed by an activity expressly permitted under Section 2, Licensor grants
+a limited patent permission solely for that non-commercial activity. No patent
+permission is granted for Commercial Production or any Commercial Purpose.
+No rights are granted to third-party patents.
+
+7. THIRD-PARTY MATERIALS
+
+Third-party tools, vendor documentation, device files, libraries, trademarks,
+and other third-party materials are not relicensed by this License. They remain
+subject to their respective owners' terms. The repository does not include or
+transfer rights to AMD, iWave, KiCad, or other third-party IP, device designs,
+reference designs, or confidential materials.
+
+8. TERMINATION
+
+Any breach of this License automatically terminates the permissions granted
+to the breaching recipient. Upon termination, that recipient must stop using,
+reproducing, modifying, manufacturing, and distributing the Materials and
+must delete copies under its control, except to the extent retention is
+required by law. Termination does not limit any other rights or remedies
+available to Licensor.
+
+9. NO WARRANTY
+
+THE MATERIALS ARE PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY, OR SAFETY. THE
+MATERIALS ARE EXPERIMENTAL ENGINEERING WORK AND MUST NOT BE ASSUMED TO BE
+PRODUCTION-READY, SAFETY-QUALIFIED, OR SUITABLE FOR INDUSTRIAL CONTROL, MEDICAL,
+AUTOMOTIVE, AEROSPACE, OR OTHER SAFETY-CRITICAL USE.
+
+10. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR SHALL NOT BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, OR
+OTHER DAMAGES, OR FOR LOSS OF DATA, PROFITS, REVENUE, BUSINESS, EQUIPMENT, OR
+PRODUCTION, ARISING FROM OR RELATED TO THE MATERIALS OR THIS LICENSE, UNDER
+ANY THEORY OF LIABILITY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+11. NO IMPLIED RIGHTS; RESERVATION
+
+All rights not expressly granted in Section 2 are reserved. In particular,
+commercial use, commercial manufacture, commercial production, and commercial
+distribution rights are withheld. Silence, publication, public repository
+visibility, issue discussion, pull-request review, or acceptance of a
+non-commercial contribution does not grant any additional right.
+
+12. INTERPRETATION
+
+If a provision is held unenforceable, it shall be limited only to the minimum
+extent necessary, and the remaining provisions shall continue in effect. No
+failure or delay by Licensor in enforcing a provision constitutes a waiver.
+This License does not replace advice from a qualified lawyer in the relevant
+jurisdiction.
+
+END OF LICENSE

@@ -1,0 +1,15 @@
+flowchart LR
+    DMAI[AXI DMA MM2S / AXI-Stream source] -->|256-bit TDATA + TKEEP/TUSER/TLAST| A[A source mux + feedback]
+    FB[(Previous successful vector)] --> A
+    A --> B[B branch: XOR mask B]
+    A --> C[C branch: XOR mask C]
+    B --> M[Selectable merge]
+    C --> M
+    M --> O[One-entry elastic output register]
+    O -->|256-bit AXI4-Stream| DMAO[AXI DMA S2MM / downstream sink]
+    PS[Versal CIPS / APU or RPU] -->|AXI4-Lite| CTRL[Control / status registers]
+    CTRL --> A
+    CTRL --> O
+    M --> FB
+    classDef fpga fill:#e8f1ff,stroke:#315b9a,color:#111;
+    class A,B,C,M,O,CTRL fpga;

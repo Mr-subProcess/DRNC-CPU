@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use or discuss this non-commercial research prototype, cite it as an experimental RTL engineering artifact; it is not a production-qualified processor."
+title: "RAQM Industrial — Versal AI Edge Gen 2 FPGA Datapath"
+authors:
+  - family-names: Sayın
+    given-names: Oğuz Kağan
+version: "4.1.0"
+date-released: 2026-11-22
+license: "LicenseRef-RAQM-Research-Only-No-Commercial-Production-1.0"
+abstract: >-
+  A 128-lane, 256-bit synchronous FPGA vector datapath prototype with parallel
+  B/C XOR transforms, selectable merge, optional feedback, AXI4-Stream data
+  transport, and AXI4-Lite management control. Research and evaluation only;
+  commercial use and commercial production are prohibited.
