@@ -1,0 +1,15 @@
+Interface,Direction,Width,Status,Notes
+aclk,Input,1,IP boundary,Common PL clock generated from CIPS/clocking; initial timing target 100 MHz only
+aresetn_async,Input,1,IP boundary,Active-low reset; asynchronous assertion and synchronized deassertion internally
+S_AXIS_TDATA,Input,256,RTL implemented,128 x 2-bit symbols
+S_AXIS_TKEEP,Input,32,RTL implemented,Must be all ones; otherwise status 0x04
+S_AXIS_TUSER,Input,8,RTL implemented,Per-beat controls unless CFG override is enabled
+S_AXIS_TLAST,Input,1,RTL implemented,Passed through
+M_AXIS_TDATA,Output,256,RTL implemented,Result vector
+M_AXIS_TKEEP,Output,32,RTL implemented,All ones
+M_AXIS_TUSER,Output,8,RTL implemented,RAQM result status byte
+M_AXIS_TLAST,Output,1,RTL implemented,Passed-through TLAST
+AXI4LITE_S,In/Out,32-bit addr/data,RTL implemented,PS through SmartConnect; same aclk domain
+G77M_B2B1/B2B2/B2B3,Physical carrier,Multiple,Not frozen,Require iWave controlled full connector pinout and exact SOM SKU
+GTYP,High-speed differential,Selected lanes only,Not integrated,GTYP IP/clock/connector/SI and PCS/MAC still required
+5V_SOM,Power input,Per SOM design guide,Not designed,Need power sequence/inrush/thermal design

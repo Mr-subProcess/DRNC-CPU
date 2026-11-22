@@ -1,0 +1,21 @@
+U1_Pin,TI_Pin_Name,Electrical_Domain,Connected_Net,Connected_To,Notes
+1,VIO,Logic side,VIO_3V3,J1.1;U1.9;R1.1;C1.1;PWR_FLAG,3.3V logic supply
+2,D,Logic side,TXD_FROM_FPGA,J1.3,UART TX from FPGA
+3,DE,Logic side,RS485_TX_ENABLE,J1.5;U1.5,Driver enable; high during transmit
+4,R,Logic side,RXD_TO_FPGA,J1.4,UART RX to FPGA
+5,/RE,Logic side,RS485_TX_ENABLE,J1.5;U1.3,Receiver enable active low; tied to DE for half duplex
+6,GNDIO,Logic side,GND_LOGIC,J1.2;U1.10;PWR_FLAG,Short directly to GND1 on PCB
+7,OUT,Logic side,ISOLATED_AUX_OUT,J1.6,Auxiliary isolated GPIO output
+8,EN/FLT,Logic side,EN_ENABLE,VIO_3V3 through R1 10k,Configured as enable input, not fault output
+9,VDD,Logic side,VIO_3V3,J1.1;U1.1;R1.1,3.3V converter input supply
+10,GND1,Logic side,GND_LOGIC,J1.2;U1.6;PWR_FLAG,Short directly to GNDIO on PCB
+11,GND2,Isolated side,ISO_GND,U1.13;U1.14;U1.15;J2.3;D1.3;PWR_FLAG,Short directly to GISOIN on PCB
+12,VISOOUT,Isolated side,ISO_3V3,U1.16;C5-C7,Connect directly to VSOIN or via ferrite per TI layout
+13,MODE,Isolated side,ISO_GND,U1.11;U1.14;U1.15,For RS-485 at 3.3V mode
+14,IN,Isolated side,ISO_GND,U1.11;U1.13;U1.15,Unused auxiliary GPIO input held low
+15,GISOIN,Isolated side,ISO_GND,U1.11;U1.13;U1.14,Short directly to GND2 on PCB
+16,VSOIN,Isolated side,ISO_3V3,U1.12;C5-C7,Connect directly to VISOOUT or via ferrite per TI layout
+17,Y,Bus side,RS485_A,J2.1;U1.20;D1.1;R2.1,Driver non-inverting output
+18,Z,Bus side,RS485_B,J2.2;U1.19;D1.2;J3.2,Driver inverting output
+19,B,Bus side,RS485_B,J2.2;U1.18;D1.2;J3.2,Receiver inverting input
+20,A,Bus side,RS485_A,J2.1;U1.17;D1.1;R2.1,Receiver non-inverting input

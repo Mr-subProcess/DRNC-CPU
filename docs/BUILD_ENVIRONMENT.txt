@@ -1,0 +1,24 @@
+RAQM Industrial G77M — repository release 4.1.0
+Date: 2026-11-22
+
+Tools detected in the preparation environment:
+- Python: 3.13.5
+- GCC: 14.2.0
+- GNU Make: available
+- Icarus Verilog (`iverilog`/`vvp`): not installed
+- Verilator: not installed
+- AMD Vivado: not installed
+
+Executed command:
+- `make check` — PASS after the release-packaging changes.
+
+The command ran Python bytecode compilation, GCC syntax checks for the C MMIO example,
+Bash syntax checks, source-contract preflight, custom-license/release checks, and the
+Python unit-test suite. The Python suite passed 21/21 tests, including a deterministic
+2,000-case randomized 128-lane property test.
+
+Not executed: SystemVerilog simulation/elaboration, Verilator lint, formal/CDC analysis,
+Vivado synthesis or implementation, CIPS/NoC/AXI DMA validation, KiCad generation/ERC,
+carrier-board design checks, physical hardware testing, thermal/EMC qualification, or
+timing closure. The GitHub Actions workflow is supplied but has not yet run against a
+published repository.

@@ -1,0 +1,16 @@
+Ref,Qty,Manufacturer,MPN,Value,Footprint,Function,Status
+U1,1,Texas Instruments,ISOW1432DFMR,ISOW1432,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm,Isolated RS-485 transceiver with integrated isolated DC/DC,Selected - verify ordering suffix and current datasheet
+D1,1,Littelfuse,SM712-02HTG,SM712,Package_TO_SOT_SMD:SOT-23,RS-485 line transient protection,Selected - confirm exact package/order code
+R1,1,Any qualified vendor,0805 10k 1%,10k,Resistor_SMD:R_0805_2012Metric,EN/FLT pull-up when used as enable input,Selected
+R2,1,Any qualified vendor,0805 120R 1%,120R,Resistor_SMD:R_0805_2012Metric,Optional bus termination in series with J3 shunt,Selected
+C1,1,Qualified X7R vendor,0805 100nF 10%,100nF,Capacitor_SMD:C_0805_2012Metric,VIO bypass,Preliminary value; confirm Rev D app schematic
+C2,1,Qualified X7R vendor,0805 100nF 10%,100nF,Capacitor_SMD:C_0805_2012Metric,VDD bypass,Preliminary value; confirm Rev D app schematic
+C3,1,Qualified X7R vendor,0805 1uF 10%,1uF,Capacitor_SMD:C_0805_2012Metric,VDD local bulk,Preliminary value; confirm Rev D app schematic
+C4,1,Qualified X7R vendor,0805 10uF 10%,10uF,Capacitor_SMD:C_0805_2012Metric,VDD local bulk,Preliminary value; confirm Rev D app schematic
+C5,1,Qualified X7R vendor,0805 100nF 10%,100nF,Capacitor_SMD:C_0805_2012Metric,VISOOUT bypass,Preliminary value; confirm Rev D app schematic
+C6,1,Qualified X7R vendor,0805 1uF 10%,1uF,Capacitor_SMD:C_0805_2012Metric,VISOOUT local bulk,Preliminary value; confirm Rev D app schematic
+C7,1,Qualified X7R vendor,0805 10uF 10%,10uF,Capacitor_SMD:C_0805_2012Metric,VISOOUT local bulk,Preliminary value; confirm Rev D app schematic
+J1,1,Generic,1x6 2.54mm,FPGA logic header,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,3.3V UART GPIO interface,Footprint for prototype; replace with locking connector for industrial product
+J2,1,Generic,3-way field terminal,RS485 A/B/ISO_REF,,Field bus connector,Select Phoenix/Weidmuller terminal after enclosure/mechanical review
+J3,1,Generic,1x2 2.54mm shunt,Termination enable,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Optional 120 ohm termination,Populate shunt only at bus endpoint
+SOM1,1,iWave,iG77M-3858E2-4E008G-E032G-IAA,G77M Versal AI Edge Gen 2 2VE3858 SOM,,Main compute module,Current distributor-listed candidate MPN; confirm exact speed/temperature grade, datasheet revision and power budget with iWave before purchase
