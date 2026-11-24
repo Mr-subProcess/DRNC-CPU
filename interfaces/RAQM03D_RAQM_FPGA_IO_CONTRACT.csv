@@ -1,0 +1,13 @@
+Signal,FPGA_ball,Direction,FPGA_IOSTANDARD,External_stage,Behavior
+RAQM_B0_DATA,Y16,FPGA_to_tile,LVCMOS33,CML differential write driver,Single-ended logic input to driver; driver generates differential CML data pair
+RAQM_B0_WE,AA16,FPGA_to_tile,LVCMOS33,CML differential select driver,Single-ended logic input to driver; no direct FPGA-to-transistor base connection
+RAQM_B1_DATA,AB16,FPGA_to_tile,LVCMOS33,CML differential write driver,Single-ended logic input to driver; driver generates differential CML data pair
+RAQM_B1_WE,AB17,FPGA_to_tile,LVCMOS33,CML differential select driver,Single-ended logic input to driver
+RAQM_B0_Q,AA13,tile_to_FPGA,LVCMOS33,Comparator/receiver,Must be measured and clamped/level-adapted to FPGA bank 13
+RAQM_B1_Q,AB13,tile_to_FPGA,LVCMOS33,Comparator/receiver,Must be measured and clamped/level-adapted to FPGA bank 13
+RAQM_REQ,AA15,FPGA_to_tile,LVCMOS33,Async interface logic,Four-phase level-held request
+RAQM_RESET_N,AB15,FPGA_to_tile,LVCMOS33,Reset supervisor,Inactive until rails and analog safe-state are valid
+RAQM_ACK,Y13,tile_to_FPGA,LVCMOS33,Async interface logic,Level-held acknowledgement
+RAQM_PAIR_VALID,AA14,tile_to_FPGA,LVCMOS33,Pair qualifier,Both bit cells from same generation committed
+RAQM_FAULT,W14,tile_to_FPGA,LVCMOS33,Fault receiver,Sticky until explicit host clear
+PCIE_PERST_N,Y17,host_to_FPGA,LVCMOS33,Reset qualifier,Separate from RAQM_RESET_N; synchronized/qualified in PCIe logic

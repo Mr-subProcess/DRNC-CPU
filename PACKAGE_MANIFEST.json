@@ -1,14 +1,20 @@
 {
-  "package": "RAQM-02G_SPICE_KiCad_and_RAQM03_Architecture_Package",
-  "created": "2026-11-17",
-  "file_count": 28,
-  "spice_engine_run": false,
-  "kicad_cli_validation": false,
-  "pcb_or_gerber_generated": false,
-  "notes": [
-    "SPICE decks are generated but not executed in this environment.",
-    "Proxy model is Diodes Inc. BC847BS, not Nexperia BCM847BS.",
-    "KiCad schematic S-expression balance checked; KiCad GUI/ERC not executed.",
-    "RAQM-03 is architecture-only pending single-cell qualification."
-  ]
+  "package": "RAQM-03D_XC7A100T_PCIe_Pinout_Integrated_Release_Candidate",
+  "version": "03D",
+  "date": "2026-11-18",
+  "status": "ENGINEERING CANDIDATE — FABRICATION HOLD",
+  "baseline": "RAQM-03C_PCIe_Schematic_and_PCB_PreRelease_Package.zip",
+  "device": "XC7A100T-FGG484; speed grade and temperature suffix open",
+  "file_count": 37,
+  "checksum_entries": 36,
+  "pinout_scope": "Relevant nets and supply/configuration pins extracted from user-provided pinout; complete 484-signal vendor CSV is not reproduced. 484-position coordinate shell included.",
+  "validation": {
+    "duplicate_ball_assignments": 0,
+    "bank13_io_assignments": 12,
+    "vivado_drc": "NOT RUN",
+    "kicad_erc_drc": "NOT RUN",
+    "pcb_routing": "NOT DONE",
+    "gerber": "NOT GENERATED",
+    "physical_pcie_test": "NOT RUN"
+  }
 }
